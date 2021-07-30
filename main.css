@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+    background-color: #f3f2ef;
+}
+
+.navbar{
+    overflow: hidden;
+}
+.search-bar__wrapper,.search-bar__field{
+    background-color: #eef3f8;
+}
+.search-bar__wrapper{
+    /* border: none; */
+    border: none !important;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.search-bar__field:focus{
+    outline: none !important;
+}
+
+.item-caption{
+    color: #000 !important;
+}
+
+
+.o{outline: 1px solid orange;}
+
+
+.item-img-round img{
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.search-bar__wrapper{
+    border: 1px solid darkgray;
+}
+.search-bar__field{
+    border: none !important;
+    /* background-color: magenta !important; */
+}
+
+.item-caption{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+
+@media (max-width:1000px){
+    .item-caption{
+        display: none;
+    }
+}
+
+svg{
+    fill: #666;
+}
+
+.border-item:after{
+ content: '';
+ display: block;
+ position: absolute;
+ background-color: rgb(219, 205, 205);
+ width: 1px;
+ height: 150%;
+ top: -10px;
+ right: -10px;
+}
