@@ -92,3 +92,89 @@ svg{
 .item-box:hover  .item-caption::after{
     transform: scaleX(1);
 }
+
+/* PARTE PRINCIPAL */
+
+.barra{
+    box-sizing: border-box;
+    margin-top: 20px;
+    min-height: 500px;
+    /* background-color: white; */
+    /* outline: 1px solid orange; */
+}
+
+/* CARTAO */
+.card__header{
+    background: url('./imgs/bg.jpg');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75px;
+ 
+}
+
+/* @media (min-width:700px){
+    .card__header{
+        height: 90px;
+    }
+} */
+
+.card .cargo{
+    font-size: 11px;
+}
+.card__links a{
+    color: #666;
+    font-size: 12px;
+    text-align: left !important;
+    background-color: red;
+    display: inline-block;
+}
+
+
+
+.card__share__avatar img{
+    width: 44px;
+    border-radius: 50%;
+}
+
+
+.publicar__btn{
+  background-color: transparent;
+  border:1px solid gray;
+  border-radius: 20px;
+  padding: 7px 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #666;
+}
+
+.publicar__btn:hover{
+    background-color: #ebebeb;
+}
+
+.share__type{
+    padding: 6px;
+    transition: all .34s ease-in-out;
+    border-radius: 5px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.share__type:hover{
+    background-color: #ebebeb;
+}
+
+.share__type__caption{
+    font-size: 12px;
+  
+}
+
+.mostrar__btn{
+    background-color:#ebebeb;
+}
+
+.mostrar__btn:focus{
+    box-shadow: none;
+}

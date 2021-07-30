@@ -168,7 +168,181 @@
     </div>
       </nav>
       <!-- BARRA DE NAVEGAÇÃO -->
-    <h1>Hello, world!</h1>
+
+    <div class="container">
+
+    <div class="row">
+         <!--   ======================  BARRA DA ESQUERDA =========================== -->
+        <div class="col-md-4 col-lg-3 barra barra__esquerda">
+         <div class="card">
+             <div class="card-header card__header"></div>
+            
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item card__nome_cargo">
+                        <h6 class="text-center mt-5 ">Elson Mendes</h6>
+                        <p class="cargo text-muted text-center mb-0">Desenvolvedor web front end</p>
+                    </li>
+                    <li class="list-group-item ">
+                      <div class="d-flex justify-content-between">
+                          <a >Quem viu seu perfil</a>
+                          <span>60</span>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <a class="mb-0">Viram seu video</a>
+                        <span>10</span>
+                    </div>
+                    </li>
+                    <li class="list-group-item card__cta">
+                        <p>Acesse ferramentas e estatísticas exclusivas</p>
+                        <div class="cta d-flex">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                                  </svg>
+                            </span>
+                            <span> 50% de desconto na conta Premium</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item card__itens">
+                        <div class="cta d-flex">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
+                                    <path d="M12 1H4a1 1 0 00-1 1v13.64l5-3.36 5 3.36V2a1 1 0 00-1-1z"></path>
+                                  </svg>
+                            </span>
+                            <span> Meus itens</span>
+                        </div>
+                    </li>
+                  </ul>
+             
+         </div>
+        </div>
+        <!--     ======================= BARRA CENTRAL  ============================== -->
+        <div class="col-md-8 col-lg-6 barra barra__feed">
+            <div class="card card__share">
+              <div class="card-body">
+                  <div class="card__top d-flex justify-content-between align-items-center">
+                      <div class="card__share__avatar">
+                          <img src="./imgs/elson.jpg" alt="">
+                      </div>
+                      <div class="card__publish w-100 ml-2 ">
+                          <button class="w-100 publicar__btn">Começar publicar</button>
+                      </div>
+                  </div>
+                  <div class="card__bottom mt-3 d-flex justify-content-between">
+                      <!-- #1 -->
+                      <div class="share__type d-flex align-items-center">
+                          <div class="share__type__icon">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z" fill="#70B5F9"></path>
+                              </svg>
+                          </div>
+                          <span class="share__type__caption ">
+                            Foto
+                          </span>
+                      </div>
+                      <!-- #2 -->
+                      <div class="share__type d-flex align-items-center">
+                        <div class="share__type__icon">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z" fill="#7FC15E"></path>
+                              </svg>
+                        </div>
+                        <span class="share__type__caption ">
+                          Video
+                        </span>
+                    </div>
+                    <!--  -->
+                      <!-- #3 -->
+                      <div class="share__type d-flex align-items-center">
+                        <div class="share__type__icon">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z" fill="#E7A33E"></path>
+                              </svg>
+                        </div>
+                        <span class="share__type__caption ">
+                          Evento
+                        </span>
+                    </div>
+                    <!-- #4 -->
+                    <div class="share__type d-flex align-items-center">
+                      <div class="share__type__icon">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z" fill="#FC9295"></path>
+                          </svg>
+                      </div>
+                      <span class="share__type__caption ">
+                        Escrever artigo
+                      </span>
+                  </div>
+                  </div>
+              </div>
+            </div>
+ 
+        </div>
+        <!--   ======================  BARRA DA DEITA =========================== -->
+        <div class="d-md-none col-lg-3 d-lg-block barra barra__direita px-0">
+          <div class="card">
+              <div class="card__noticias__titulo d-flex justify-content-between align-items-center">
+                  <h6 class="px-3 pt-4">LinkedIn Notícias</h6>
+                  <span class="pt-3 pr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                        <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"></path>
+                      </svg>
+                  </span>
+              </div>
+              <div class="card__noticias__body">
+                  <!-- inico -->
+                  <div class="accordion" id="noticiario">
+                    <div class="">
+                      <div class="card-body" id="primeiro__titulo">
+                        <div class="noticia ">
+                            <div class="d-flex">
+                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
+                                </div>
+                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
+                        </div>
+                        <!--  -->
+                        <div class="noticia ">
+                            <div class="d-flex">
+                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
+                                </div>
+                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
+                        </div>
+                        <!--  -->
+                        <div class="noticia ">
+                            <div class="d-flex">
+                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
+                                </div>
+                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
+                        </div>
+                        <!-- noticias -->
+                        <h2 class="mb-0">
+                          <button class="mostrar__btn btn   text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span>Exibir mais</span>
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                              </svg>
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="primeiro__titulo" data-parent="#noticiario">
+                        <div class="card-body">
+                          Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fim -->
+              </div>
+          </div>
+        </div>
+    </div>
+
+
+    </div>
 
 
 
@@ -179,3 +353,18 @@
   </body>
 </html>
 
+<!-- 
+
+               <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
+                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                  </svg>
+            </div>
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"></path>
+                  </svg>
+            </div>
+ -->
