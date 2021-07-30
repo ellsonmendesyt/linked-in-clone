@@ -98,9 +98,10 @@ svg{
 .barra{
     box-sizing: border-box;
     margin-top: 20px;
-    min-height: 500px;
+    /* min-height: 500px; */
     /* background-color: white; */
     /* outline: 1px solid orange; */
+    margin-bottom: 100px;
 }
 
 /* CARTAO */
@@ -177,4 +178,41 @@ svg{
 
 .mostrar__btn:focus{
     box-shadow: none;
+}
+
+
+/* 
+POSTAGENS
+*/
+
+
+.postagem__header{
+    background-color: #fff;
+}
+
+.postagem__logo img{
+    width: 50px;
+}
+
+.postagem__descricao{
+    font-size: 14px;
+}
+
+.postagem__capa img{
+    width: 100%;
+}
+
+
+.postagem__acao{
+    transition: all .3s ease-in-out;
+    border-radius: 6px;
+}
+
+.postagem__acao:hover{
+    background-color: rgba(0,0,0,.05);
+}
+
+
+.b{
+    background-color: rgba(0,0,0,.05);
 }
