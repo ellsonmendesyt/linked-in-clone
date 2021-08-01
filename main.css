@@ -216,3 +216,52 @@ POSTAGENS
 .b{
     background-color: rgba(0,0,0,.05);
 }
+
+/* 
+REAÇÕES
+*/
+
+
+.menu__flutuante{
+    background-color: #fff;
+    display: flex;
+    /* width: 200px; */
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 20px;
+    padding: 3px 14px;
+    position: relative;
+    box-shadow: 0px 4px 1px  rgba(0,0,0,.15);
+
+
+    z-index: 999;
+    visibility: hidden;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+
+
+.botao{
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 3px 10px;
+  outline: none;
+  border: 1px solid transparent;
+  transition: all .2s ease-in-out;
+}
+
+.botao:hover{
+    background-color: #ebebeb;
+}
+
+.botao span{
+    font-size: 12px;
+}
+
+
+
+
+
+

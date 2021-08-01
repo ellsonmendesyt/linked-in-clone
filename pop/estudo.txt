@@ -1,0 +1,1 @@
+https://newbedev.com/how-do-i-simulate-a-mouseover-in-pure-javascript-that-activates-the-css-hover
