@@ -261,7 +261,22 @@ REAÇÕES
 }
 
 
+.escondido{
+    visibility: hidden;
+}
+
+.botao__gostar{position: relative;}
 
 
+.botao__gostar:after{
+  content:'' ;
+  display: inline-block;
+  border: 2px solid yellow;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  bottom: 10px;
+  left: 0px;
+}
 
 
