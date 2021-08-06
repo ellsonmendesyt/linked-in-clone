@@ -384,9 +384,50 @@ PARAGRAFO ENSCONDIDO
 
 
 
-.gruda__no__topo{
+.gruda__no__topo, .contrate__me{
     position:sticky;
     top: 65px;
+}
+
+
+.anuncio{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: .7rem;
+}
+
+.texto__esmaecido__p{
+ font-size: .8rem;
+ color: #333;
+ text-align: center;
+}
+
+.img-box{
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+    border-radius: 50%;
+ 
+
+}
+.img-box img{
+    width: 100%;
+}
+
+.contratar__btn{
+    border: 1px solid #0a66c2;
+    border-radius: 20px;
+    padding: 4px 10px;
+    color: #0a66c2;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.contratar__btn:hover{
+    background-color:#0a66c2 ;
+    color: #fff;
 }
 
 
@@ -394,15 +435,15 @@ PARAGRAFO ENSCONDIDO
 
 
 
+.postagem__video{
+    width: 100%;
+    overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
+.seguir__btn{transition: all .2s ease;}
+.seguir__btn:hover{
+ background-color: #e2f0fe;
+}
 
 
 
