@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.css" >
+     <link rel="stylesheet" href="linkedin.css">
+     <link rel="icon" href="./ims/favs/favicon.ico">
+    <title>ellsonmendestYT</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-light justify-content-between ">
+        <!-- LOGO -->
+    <div class="container">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" ><g><path d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z" fill="#0a66c2"></path></g></svg>
+              </a>
+            </li>
+            <!-- barra de busca -->
+            <li class="nav-item align-items-center d-flex">
+                <div class="search-bar__wrapper d-flex align-items-center ">
+                    <div class="search-bar__icon mr-2 d-flex align-items-center">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="#666666" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M21.41 18.59l-5.27-5.28A6.83 6.83 0 0017 10a7 7 0 10-7 7 6.83 6.83 0 003.31-.86l5.28 5.27a2 2 0 002.82-2.82zM5 10a5 5 0 115 5 5 5 0 01-5-5z" fill-opacity="0.6" fill="#666666"></path>
+                          </svg>
+                    </div>
+                    <div class="search-bar__box d-none d-md-block ">
+                        <input class="search-bar__field" type="text" placeholder="Pesquisar">
+                    </div>
+                </div>
+            </li>
+        </ul>
+      
+        <!-- LISTA DO MEIO -->
+        <ul class="nav ">
+            <!-- icone #1 -->
+            <li class="nav-item ml-2 mr-2 mr-lg-4">
+              <div class="item-box d-flex flex-column text-center">
+                  <div class="item-icon">
+                    <svg id="global-nav-icon--mercado__home" height="24" width="24">
+                        <path d="m23 9v2h-2v7c0 1.7-1.3 3-3 3h-4v-6h-4v6h-4c-1.7 0-3-1.3-3-3v-7h-2v-2l11-7z"></path>
+                      </svg>
+                  </div>
+                  <div class="item-caption text-white">Inicio</div>
+              </div>
+            </li>
+            <!-- icone #2 -->
+            <li class="nav-item mr-3 mr-lg-4">
+                <div class="item-box d-flex flex-column text-center ">
+                    <div class="item-icon">
+                        <svg id="global-nav-icon--mercado__my-network" height="24" width="24">
+                            <path d="m12 16v6h-9v-6c0-1.7 1.3-3 3-3h3c1.7 0 3 1.3 3 3zm5.5-3c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5zm1 2h-2c-1.4 0-2.5 1.1-2.5 2.5v4.5h7v-4.5c0-1.4-1.1-2.5-2.5-2.5zm-11-13c-2.5 0-4.5 2-4.5 4.5s2 4.5 4.5 4.5 4.5-2 4.5-4.5-2-4.5-4.5-4.5z"></path>
+                          </svg>
+                    </div>
+                    <div class="item-caption text-white">Minha rede</div>
+                </div>
+              </li> 
+           <!-- icone #3 -->
+           <li class="nav-item mr-3 mr-lg-4">
+            <div class="item-box d-flex flex-column text-center">
+                <div class="item-icon">
+                    <svg id="global-nav-icon--mercado__jobs" height="24" width="24">
+                        <path d="m17 6v-1c0-1.7-1.3-3-3-3h-4c-1.7 0-3 1.3-3 3v1h-5v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4zm-8-1c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v1h-6zm10 9c1.2 0 2.3-.5 3-1.4v4.4c0 1.7-1.3 3-3 3h-14c-1.7 0-3-1.3-3-3v-4.4c.7.9 1.8 1.4 3 1.4z"></path>
+                      </svg>
+                </div>
+                <div class="item-caption text-white">Vagas</div>
+            </div>
+          </li> 
+           <!-- icone #4 -->
+           <li class="nav-item mr-3 mr-lg-4">
+            <div class="item-box d-flex flex-column text-center">
+                <div class="item-icon">
+                    <svg id="global-nav-icon--mercado__messaging" height="24" width="24">
+                        <path d="M16 3H8C6.14348 3 4.36301 3.77847 3.05025 5.16416C1.7375 6.54984 1 8.42923 1 10.3889C1 12.3485 1.7375 14.2279 3.05025 15.6136C4.36301 16.9993 6.14348 17.7778 8 17.7778H12V22L20.16 16.3106C21.0512 15.639 21.7751 14.7495 22.2697 13.7183C22.7643 12.687 23.0148 11.5446 23 10.3889C23 8.42923 22.2625 6.54984 20.9497 5.16416C19.637 3.77847 17.8565 3 16 3ZM8 11.7083C7.75277 11.7083 7.5111 11.631 7.30554 11.486C7.09998 11.341 6.93976 11.1349 6.84515 10.8938C6.75054 10.6527 6.72579 10.3874 6.77402 10.1315C6.82225 9.87553 6.9413 9.64043 7.11612 9.4559C7.29093 9.27137 7.51366 9.14571 7.75614 9.0948C7.99861 9.04389 8.24995 9.07002 8.47835 9.16988C8.70676 9.26975 8.90199 9.43886 9.03934 9.65585C9.17669 9.87283 9.25 10.1279 9.25 10.3889C9.25 10.7388 9.1183 11.0744 8.88388 11.3219C8.64946 11.5693 8.33152 11.7083 8 11.7083ZM12 11.7083C11.7528 11.7083 11.5111 11.631 11.3055 11.486C11.1 11.341 10.9398 11.1349 10.8452 10.8938C10.7505 10.6527 10.7258 10.3874 10.774 10.1315C10.8222 9.87553 10.9413 9.64043 11.1161 9.4559C11.2909 9.27137 11.5137 9.14571 11.7561 9.0948C11.9986 9.04389 12.2499 9.07002 12.4784 9.16988C12.7068 9.26975 12.902 9.43886 13.0393 9.65585C13.1767 9.87283 13.25 10.1279 13.25 10.3889C13.25 10.7388 13.1183 11.0744 12.8839 11.3219C12.6495 11.5693 12.3315 11.7083 12 11.7083ZM16 11.7083C15.7528 11.7083 15.5111 11.631 15.3055 11.486C15.1 11.341 14.9398 11.1349 14.8452 10.8938C14.7505 10.6527 14.7258 10.3874 14.774 10.1315C14.8222 9.87553 14.9413 9.64043 15.1161 9.4559C15.2909 9.27137 15.5137 9.14571 15.7561 9.0948C15.9986 9.04389 16.2499 9.07002 16.4784 9.16988C16.7068 9.26975 16.902 9.43886 17.0393 9.65585C17.1767 9.87283 17.25 10.1279 17.25 10.3889C17.25 10.7388 17.1183 11.0744 16.8839 11.3219C16.6495 11.5693 16.3315 11.7083 16 11.7083Z"></path>
+                      </svg>
+                </div>
+                <div class="item-caption text-white">Mensagens</div>
+            </div>
+          </li> 
+           <!-- icone #5 -->
+           <li class="nav-item mr-3 mr-lg-4">
+            <div class="item-box d-flex flex-column text-center">
+                <div class="item-icon">
+                    <svg id="global-nav-icon--mercado__notifications--active" height="24" width="24">
+                        <path d="M21.4 17L20.7 15.6L5.2 12.2L4 13.1C3 13.9 2.4 14.7 2.2 15.6L2 16.6L21.7 21L21.9 20C22 19.7 22 19.5 22 19.2C22 18.5 21.8 17.8 21.4 17Z"></path>
+                        <path d="M20.5 8.8C20.8 5.7 18.7 2.8 15.6 2.1C15.1 2 14.6 2 14.2 2C11.6 2 9.19999 3.6 8.29999 6.1L6.29999 11.4L20.1 14.5L20.5 8.8Z"></path>
+                        <path d="M11 20C11 21.1 11.9 22 13 22C14.1 22 15 21.1 15 20C15 19.8 15 19.7 14.9 19.5L11.4 18.7C11.2 19.1 11 19.5 11 20Z"></path>
+                      </svg>
+                </div>
+                <div class="item-caption text-white">Notificações</div>
+            </div>
+          </li> 
+           <!-- icone #6 -->
+           <li class="nav-item mr-3 mr-lg-5 position-relative">
+            <div class="item-box d-flex flex-column text-center border-item">
+                <div class="item-img-round">
+                  <img src="./imgs/elson.jpg" alt="avatar">
+                </div>
+                <div class="item-caption text-white">Eu
+                    <span>
+                        <svg id="global-nav-icon--classic__down-arrow" width="16" height="16" data-supported-dps="16x16">
+                            <path d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"></path>
+                          </svg>
+                    </span>
+                </div>
+            </div>
+          </li> 
+          </ul>
+        <!-- LISTA DA DIREITA -->
+     
+        <ul class="nav flex-md-grow-0 flex-lg-grow-1 ">
+            <!-- icone #0 -->
+            <li class="nav-item mr-3 d-md-none">
+                <div class="item-box d-flex flex-column text-center">
+                    <div class="item-icon">
+                        <svg id="global-nav-icon--classic__overflow" width="24" height="24">
+                            <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                          </svg>
+                    </div>
+                    <div class="item-caption text-white">Soluções
+                        <span>
+                            <svg id="global-nav-icon--classic__down-arrow" width="16" height="16" data-supported-dps="16x16">
+                                <path d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"></path>
+                              </svg>
+                        </span>
+                    </div>
+                </div>
+              </li> 
+            <!-- icone #1 -->
+            <li class="nav-item mr-3 d-none d-md-block">
+                <div class="item-box d-flex flex-column text-center">
+                    <div class="item-icon">
+                        <svg id="global-nav-icon--classic__work" height="24" width="24">
+                            <path d="M10 10h4v4h-4v-4zm0 11h4v-4h-4v4zm-7-7h4v-4H3v4zm0 7h4v-4H3v4zM3 7h4V3H3v4zm14 7h4v-4h-4v4zm0-11v4h4V3h-4zm-7 4h4V3h-4v4zm7 14h4v-4h-4v4z"></path>
+                        </svg>
+                    </div>
+                    <div class="item-caption text-white">Soluções
+                        <span>
+                            <svg id="global-nav-icon--classic__down-arrow" width="16" height="16" data-supported-dps="16x16">
+                                <path d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"></path>
+                              </svg>
+                        </span>
+                    </div>
+                </div>
+              </li> 
+            <!--  -->
+            <li class="nav-item mr-3 d-none d-md-block">
+                <div class="item-box d-flex flex-column text-center">
+                    <div class="item-icon">
+                        <svg id="global-nav-icon--classic__post-a-job" height="24" width="24">
+                            <circle cx="12" cy="4" r="2" opacity=".7"></circle>
+                            <path d="M21 10H3a1 1 0 00-1 1v10a1 1 0 001 1h18a1 1 0 001-1V11a1 1 0 00-1-1zm-5 9H8v-2h8v2zm2-4H6v-2h12v2z"></path>
+                            <g opacity=".55">
+                              <path d="M9.57 5.75l-2.41 4.83 1.68.84 2.28-4.57a3 3 0 01-1.55-1.1zM14.43 5.75a3 3 0 01-1.55 1.1l2.28 4.57 1.68-.84z" opacity=".55"></path>
+                            </g>
+                          </svg>
+                    </div>
+                    <div class="item-caption text-white">Anunciar vaga
+                    </div>
+                </div>
+              </li>
+        </ul>
+    </div>
+      </nav>
+      <!-- BARRA DE NAVEGAÇÃO -->
+
+    <div class="container">
+
+    <div class="row">
+         <!--   ======================  BARRA DA ESQUERDA =========================== -->
+        <div class="col-md-4 col-lg-3 barra barra__esquerda">
+         <div class="card">
+             <div class="card-header card__header"></div>
+            
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item card__nome_cargo">
+                        <h6 class="text-center mt-5 ">Elson Mendes</h6>
+                        <p class="cargo text-muted text-center mb-0">Desenvolvedor web front end</p>
+                    </li>
+                    <li class="list-group-item ">
+                      <div class="d-flex justify-content-between">
+                          <a >Quem viu seu perfil</a>
+                          <span>60</span>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <a class="mb-0">Viram seu video</a>
+                        <span>10</span>
+                    </div>
+                    </li>
+                    <li class="list-group-item card__cta">
+                        <p>Acesse ferramentas e estatísticas exclusivas</p>
+                        <div class="cta d-flex">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                                  </svg>
+                            </span>
+                            <span> 50% de desconto na conta Premium</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item card__itens">
+                        <div class="cta d-flex">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
+                                    <path d="M12 1H4a1 1 0 00-1 1v13.64l5-3.36 5 3.36V2a1 1 0 00-1-1z"></path>
+                                  </svg>
+                            </span>
+                            <span> Meus itens</span>
+                        </div>
+                    </li>
+                  </ul>
+             
+         </div>
+        </div>
+        <!--     ======================= BARRA CENTRAL  ============================== -->
+        <div class="col-md-8 col-lg-6 barra barra__feed">
+            <!-- xxx compartilhamento xx -->
+            <div class="card card__share">
+              <div class="card-body">
+                  <div class="card__top d-flex justify-content-between align-items-center">
+                      <div class="card__share__avatar">
+                          <img src="./imgs/elson.jpg" alt="">
+                      </div>
+                      <div class="card__publish w-100 ml-2 ">
+                          <button class="w-100 publicar__btn">Começar publicar</button>
+                      </div>
+                  </div>
+                  <div class="card__bottom mt-3 d-flex justify-content-between">
+                      <!-- #1 -->
+                      <div class="share__type d-flex align-items-center">
+                          <div class="share__type__icon">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z" fill="#70B5F9"></path>
+                              </svg>
+                          </div>
+                          <span class="share__type__caption ">&nbsp;&nbsp;Foto</span>
+                      </div>
+                      <!-- #2 -->
+                      <div class="share__type d-flex align-items-center">
+                        <div class="share__type__icon">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z" fill="#7FC15E"></path>
+                              </svg>
+                        </div>
+                        <span class="share__type__caption ">
+                          &nbsp;&nbsp;Video
+                        </span>
+                    </div>
+                    <!--  -->
+                      <!-- #3 -->
+                      <div class="share__type d-flex align-items-center">
+                        <div class="share__type__icon">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z" fill="#E7A33E"></path>
+                              </svg>
+                        </div>
+                        <span class="share__type__caption ">
+                          &nbsp;&nbsp;Evento
+                        </span>
+                    </div>
+                    <!-- #4 -->
+                    <div class="share__type d-flex align-items-center">
+                      <div class="share__type__icon">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z" fill="#FC9295"></path>
+                          </svg>
+                      </div>
+                      <span class="share__type__caption ">
+                        &nbsp;&nbsp;Escrever artigo
+                      </span>
+                  </div>
+                  </div>
+              </div>
+            </div>
+
+        <!-- POSTAGEM #1   =====================   POSTAGEM ==========================POSTAGEM======================= POSTAGEM -->
+            <div class="card card__postagem mt-4">
+                <div class="card-header postagem__header d-flex  align-items-center ">
+                    <div class="postagem__logo">
+                        <img src="./imgs/post_img.jpg" alt="">
+                    </div>
+                    <div class="postagem__info ml-3 flex-lg-grow-1 ">
+                        <!-- titulo -->
+                        <h6 class="postagem__titulo">JBS</h6>
+                        <!-- seguidores -->
+                        <div class="postagem__seguidores text-muted small">1.558.766 seguidores</div>
+                        <!-- data -->
+                        <p class="postagem__data"> 7 min . <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+                              </svg>
+                        </span></p>
+                    </div>
+                    <span class="dots align-self-start ">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                          </svg>
+                    </span>
+                </div>
+                <!-- CORPO DA POSTAGEM -->
+                      <div class="card-body">
+                          <!-- descriçao -->
+                          <p class="postagem__descricao">
+                              Os Sustainability-Linked Bonds (SLB) são importantes instrumentos para apoiar uma atividade econômica mais sustentável, inclusive para nós. Por meio da recente emissão externa de sustainability-linked bonds com juros atrelados ...
+                            </p>
+                            <button class="show__btn show__btn--more">... Leia mais</button>
+                            <p class="p-hidden postagem__descricao">
+                              Nós, da JBS, somos 250 mil colaboradores movidos pelo propósito de alimentar o mundo com o que há de melhor, levando excelência e inovação por meio das nossas marcas para muitos países. Somos a segunda maior companhia de alimentos do mundo e a primeira em proteína com opções que vão desde o café da manhã até o jantar, além de termos a maior linha de produtos plant based.
+                              Da origem até a mesa do consumidor, nosso cuidado vai além do processo produtivo e temos responsabilidade em nossas ações para que elas gerem impactos positivos para nossos colaboradores, fornecedores, clientes e, claro, para as milhões de famílias que confiam na qualidade dos nossos produtos.
+                            </p>
+                            <button class="show__btn show__btn--less">... mostrar menos</button>
+                          <!-- imagem -->
+                          <div class="postagem__capa"><img src="./imgs/post1.jpg" alt=""></div>
+                          <div class="postagem__feedback">
+                              <img src="./imgs/like_p.svg" alt=""> <span class="postagem__likes text-muted small">44</span>
+                          </div>
+                          <hr class="postagem__divisor">
+                        <!--  ============================ R  E  A  Ç  Õ  E  S ================================= --> 
+                      <div class="social__actions__bar">
+                        <a class="like__btn btn custom__btn custom__btn--transparent">
+
+                          <div class="face__sensor">
+                            <div class="face__icons">
+                              <!-- face -- icons  -->
+                              <div class="acao__icone mr-2">
+                                <svg class="acao" width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="like-creation-large" data-supported-dps="48x48">
+                                    <g fill="none" fill-rule="evenodd">
+                                      <path d="M25.39 22H10.13c-2 0-3.2 2.11-3.12 3.92a3.23 3.23 0 003.3 3h.57a2.75 2.75 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83 2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.61-6.09-7.84C23.8 9.83 23.71 9 22 9a2.77 2.77 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 7.08 3.51 7.25" fill="#1485BD" fill-rule="nonzero"/>
+                                      <path d="M23.49 23H10.13c-2 0-3.21 1.19-3.13 3a3.22 3.22 0 003.31 3h.57a2.76 2.76 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83v.05a2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.6-6.09-7.84C23.8 9.87 23.71 9 22 9a2.65 2.65 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 8 3.51 8.21V23z" stroke="#004B7C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                  </svg>
+                            </div>
+                        
+                            <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="praise-creation-large" data-supported-dps="48x48">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <path d="M39.33 30.67l-1.6-1.2s-.66-6.35-1.82-7.58c-2.09-2.2-3.42-5.42-4.3-8.46-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a34 34 0 002 6.54l-.65-.39-15.44-11.74c-1.15-.87-2.81-1.26-3.93.24s-.22 2.89.93 3.75l8 6 2.39 1.81-12.79-9.61c-1.15-.87-2.81-1.26-3.94.24s-.21 2.92.93 3.75l8 6 4.8 3.6-10.4-7.79c-1.15-.87-2.81-1.26-3.94.24s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.87-2.78-1.29-3.86.14-1.08 1.43-.29 3 .86 3.86l14.54 11a9.79 9.79 0 007.41 1.8c.81.59 2.4 1.8 2.4 1.8a27.51 27.51 0 005.59-5.8 41.5 41.5 0 004.59-7.76z" fill="#49992A" fill-rule="nonzero"/>
+                                    <path d="M29.73 23.48l-2.41-1.81" fill="#93D870" fill-rule="nonzero"/>
+                                    <path d="M39.21 31l.12-.28" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M37.6 28.4c-.25-1.87-.41-7.47-1.27-8.38-2.09-2.21-3.84-3.55-4.72-6.59-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a43.76 43.76 0 002 6.92L12.81 11c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6 2.39 1.8-12.79-9.59c-1.15-.86-2.81-1.25-3.94.25s-.21 2.88.93 3.75l8 6 4.8 3.61L6.8 19c-1.15-.86-2.81-1.25-3.94.25s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.86-2.78-1.29-3.86.15s-.29 3 .86 3.85l14.53 10.68a9.79 9.79 0 007.41 1.8" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M29.73 23.48l-2.41-1.81" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M45.93 31.87l-1.6-1.2s-.66-6.36-1.82-7.58a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7c2.53 1.87 7.07 2.12 7 2.12.9.558 1.838 1.05 2.81 1.47A11.41 11.41 0 0042.93 41a17 17 0 003-9.13z" fill="#6DAE4F" fill-rule="nonzero"/>
+                                    <path d="M36.33 24.67l-2.41-1.8" fill="#93D870" fill-rule="nonzero"/>
+                                    <path d="M12 1.65l.79 3.52M23.2 5.95l-2.94 2.08M18.68 1l-2.15 5.6M45.77 31.88a7.52 7.52 0 01-1.62-2.66c-.18-.75-.23-1.53-.37-2.29-.22-1.17-.41-2.93-1.27-3.84a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7a9.56 9.56 0 004 1.75c.64.12 1.32.18 2.07.32a10 10 0 013.08 1 3 3 0 002.15.17 13.28 13.28 0 006.26-4.59 12.74 12.74 0 002.48-7 2.92 2.92 0 00-.2-1.65h0z" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </g>
+                                </svg>
+                          </div> 
+                    
+                          <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" id="support-creation-large" data-supported-dps="48x48">
+                                  <path d="M14.889 32h-.44a.729.729 0 01-.25 0c-.79-.29-4.82-1.83-7.53-2.59a.86.86 0 01-.63-.73 2.4 2.4 0 01.37-1.77 1.41 1.41 0 011.19-.58c.238 0 .475.04.7.12.538.213 1.04.506 1.49.87l.19.15 1.25.87c.46.33.87.61 1.16.83l2.92 1.19c.39.18 2 .92 2 1.34 0 .42-1.86.37-2.25.38l-.17-.08z" fill="#9983B1"/>
+                                  <path d="M44.197 44.52a74.559 74.559 0 01-11.84-1.23h-.21a65.995 65.995 0 01-8.77-1.82c-2.56-.77-5.08-1.77-7.52-2.73l-1.09-.43c-2.31-.9-4.19-1.66-5.9-2.39l-.64-.27a23.572 23.572 0 01-3-1.41c-1.33-.78-1.74-1.78-1.19-3v-.09A1.93 1.93 0 016.007 30h.11c.193-.015.387-.015.58 0 2.12.23 8.27 2.57 9.48 3l4 .14h.1l9 .31c-.7-.64-2.45-1.75-6.75-2.86-.82-.21-1.56-.45-1.73-1a2.38 2.38 0 01.78-2.54 3.21 3.21 0 011.88-.42c.768 0 1.534.09 2.28.27.46.12.83.24 1.19.35.934.32 1.9.538 2.88.65a30.6 30.6 0 014.64 1.1c5 1.36 6 3.87 6.59 5.38 0-.09 0 .08 0 0-.19-.62 0-.16.1-.39l.14-.2h.34c.143.01.287.01.43 0 .86 0 2.5-.09 2.51-.09a.85.85 0 01.85.63c1.71 6.23-.64 9.69-.74 9.83a.64.64 0 01-.48.33l.01.03z" fill="#BBA9D1"/>
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.22 11.35a5 5 0 00-7.13-.09l-.09.09a5.24 5.24 0 000 7.34l7.79 7.9 7.8-7.9c2-2.038 2-5.302 0-7.34a5.06 5.06 0 00-3.61-1.53 5 5 0 00-3.6 1.53l-.57.58-.59-.58z" fill="#DF704D"/>
+                                  <path clip-rule="evenodd" d="M45.147 34.32c.358.277 1.743 2.502 1.483 5.05-.26 2.55-1.87 4.89-2.28 5.291-.411.4-15.188-1.486-18.65-2.162-3.462-.676-20.15-8.073-20.793-8.454-.642-.381-.7-3.124 1.134-3.693 1.835-.569 5.855 2.149 9.526 2.749 3.67.6 10.2.944 12.681.944s-2.681-2.162-3.895-2.643c-1.214-.481-3.203-.875-3.616-2.162-.413-1.287.926-2.24 2.026-2.24.733 0 2.695.494 5.885 1.483 3.138 0 5.737.448 7.797 1.343a9.199 9.199 0 014.68 4.495c.342.724 3.663-.276 4.022 0z" stroke="#493D57" stroke-width="2"/>
+                                  <path d="M6.838 30.17C5.906 28.144 7.055 27 8.416 27c1.362 0 2.4 1.483 4.367 2.826 1.312.896 3.61 2.187 6.895 3.875" stroke="#493D57" stroke-width="2"/>
+                                  <path clip-rule="evenodd" d="M16.156 10.63a5.466 5.466 0 00-7.731.056c-2.132 2.15-2.171 5.635-.089 7.835L16.77 27l8.433-8.49a5.629 5.629 0 001.52-4.86 5.574 5.574 0 00-3.01-4.084A5.258 5.258 0 0021.292 9a5.454 5.454 0 00-3.88 1.653l-.643.611-.614-.634z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                          </div> 
+              
+                          <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="empathy-creation-large" data-supported-dps="48x48">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <path d="M22.9 14.9a9.91 9.91 0 10-14 14L24 44l15.1-15.07a10 10 0 00-2.67-16 9.52 9.52 0 00-4.33-1 9.84 9.84 0 00-6.95 2.93L24 16l-1.1-1.1z" fill="#DF704D"/>
+                                    <path d="M22.9 14.88a9.88 9.88 0 00-14 13.94L24 43.8l15.1-15A9.86 9.86 0 0036.43 13a9.52 9.52 0 00-4.33-1h0a9.83 9.83 0 00-6.95 2.92L24 16l-1.1-1.12z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </g>
+                                </svg>
+                          </div> 
+                        
+                          <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="interest-creation-large" data-supported-dps="48x48">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <path d="M27 44h-6a2 2 0 01-2-2v-5h10v5a2 2 0 01-2 2z" fill="#C07800" fill-rule="nonzero"/>
+                                    <path d="M21 37l8 .07a11.22 11.22 0 01.09-3.57 6.61 6.61 0 01.78-1.63 4.58 4.58 0 01.63-.69l.14-.12A11.74 11.74 0 0035 22.17c0-6.075-4.925-11-11-11s-11 4.925-11 11v.06a11.42 11.42 0 004.13 8.66 10.9 10.9 0 011.77 2.79 9.61 9.61 0 01.8 3.08l.3.24" fill="#F5BB5C" fill-rule="nonzero"/>
+                                    <path d="M12 5.82l2.42 3.15M36 5.82l-2.42 3.15M24 2v4.77" stroke="#5D3B01" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M27 44h-6a2.21 2.21 0 01-2-2.1V37h10v4.9a2.21 2.21 0 01-2 2.1h0z" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M29 38c0-3.63.41-4.47.41-4.47a6.33 6.33 0 011.89-3 11.72 11.72 0 003.09-4.62c.42-1.189.64-2.44.65-3.7v-.06A11.09 11.09 0 0024 11h0c-6.121.05-11.044 5.049-11 11.17v.06c.01 1.26.23 2.511.65 3.7a11.72 11.72 0 003.09 4.62 6.33 6.33 0 011.89 3s.41.84.41 4.47" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </g>
+                                </svg>
+                          </div> 
+                        
+                          <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="maybe-creation-large" data-supported-dps="48x48">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <circle fill="#DEB8DC" fill-rule="nonzero" cx="24.5" cy="24.5" r="16.5"/>
+                                    <path d="M22.66 8.1A16.08 16.08 0 0124.5 8a16.5 16.5 0 11-12.16 5.35" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15 33.66l11.48-1.92a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14" fill="#DEB8DC" fill-rule="nonzero"/>
+                                    <path d="M26.48 31.74a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14l10.27-1.69zM13 10a4.2 4.2 0 012.75-1.23 4.15 4.15 0 012.94.67M21 26h3" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle fill="#523951" fill-rule="nonzero" cx="17" cy="19" r="2"/>
+                                    <circle fill="#523951" fill-rule="nonzero" cx="29" cy="20" r="2"/>
+                                    <path d="M28 14.29a4.18 4.18 0 013 0A4.18 4.18 0 0133.45 16" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </g>
+                                </svg>
+                          </div> 
+                              <!-- face --icosn end -->
+                            </div>
+
+                          </div>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                            </svg>
+                          Gostei
+                        </a>
+
+                        <button class="btn custom__btn custom__btn--transparent">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="">
+                            <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" style=""></path>
+                          </svg>
+                          Comentar
+                        </button>
+                        <button class="btn custom__btn custom__btn--transparent">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                            </svg>
+                          Compartilhar
+                        </button>
+                        <button class="btn custom__btn custom__btn--transparent">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                          </svg>
+                          Enviar
+                        </button>
+                      </div>
+                          <!--================== R  E  A  T  I  O  N   E  N  D  ===================================-->
+                  </div>
+            </div>
+        <!--  POSTAGEM #1 FIM           ============ POSTAGEM FIM  ============ POSTAGEM FIM ===================== POSTAGEM FIM -->
+         
+        <!-- POSTAGEM #2   =====================   POSTAGEM ==========================POSTAGEM======================= POSTAGEM -->
+        <div class="card card__postagem mt-4">
+          <div class="card-header postagem__header d-flex  align-items-center ">
+              <div class="postagem__logo">
+                  <img src="./imgs/top.jpg" alt="">
+              </div>
+              <div class="postagem__info ml-3 flex-lg-grow-1 ">
+                  <!-- titulo -->
+                  <h6 class="postagem__titulo">Top das Galaxias</h6>
+                  <!-- seguidores -->
+                  <div class="postagem__seguidores text-muted small">1.558.766 seguidores</div>
+                  <!-- data -->
+                  <p class="postagem__data"> 2 dias <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                          <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
+                        </svg>
+                  </span></p>
+              </div>
+              <span class="dots align-self-start ">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+                    </svg>
+              </span>
+          </div>
+          <!-- CORPO DA POSTAGEM -->
+                <div class="card-body">
+                    <!-- descriçao -->
+                    <p class="postagem__descricao">
+                      Este grupo foi criado para ajudar pessoas que estão iniciando sua jornada no desenvolvimento web, assim como pessoas que queiram revisar. O grupo foca nas três tecnologias que regem a internet, html, css e javascript.
+                      </p>
+                      <button class="show__btn show__btn--more">... Leia mais</button>
+                      <p class="p-hidden postagem__descricao">
+                        Temos um canal do youtube com vídeos relacionados a esses tópicos.
+                        <a href="https://www.youtube.com/c/ellsonmendesYT" target="_blank"> curso de html css e javascript</a>Para procurar sobre assuntos específicos use as tags especiais #HTML DICAS, #CSS DICAS E #JSDICAS
+                      </p>
+                      <button class="show__btn show__btn--less">... mostrar menos</button>
+                    <!-- imagem -->
+                    <div class="postagem__capa"><img src="./imgs/pots3.jpg" alt=""></div>
+                    <div class="postagem__feedback">
+                        <img src="./imgs/like_p.svg" alt=""> <span class="postagem__likes text-muted small">44</span>
+                    </div>
+                    <hr class="postagem__divisor">
+                  <!--  ============================ R  E  A  Ç  Õ  E  S ================================= --> 
+                <div class="social__actions__bar">
+                  <a class="like__btn btn custom__btn custom__btn--transparent">
+
+                    <div class="face__sensor">
+                      <div class="face__icons">
+                        <!-- face -- icons  -->
+                        <div class="acao__icone mr-2">
+                          <svg class="acao" width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="like-creation-large" data-supported-dps="48x48">
+                              <g fill="none" fill-rule="evenodd">
+                                <path d="M25.39 22H10.13c-2 0-3.2 2.11-3.12 3.92a3.23 3.23 0 003.3 3h.57a2.75 2.75 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83 2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.61-6.09-7.84C23.8 9.83 23.71 9 22 9a2.77 2.77 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 7.08 3.51 7.25" fill="#1485BD" fill-rule="nonzero"/>
+                                <path d="M23.49 23H10.13c-2 0-3.21 1.19-3.13 3a3.22 3.22 0 003.31 3h.57a2.76 2.76 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83v.05a2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.6-6.09-7.84C23.8 9.87 23.71 9 22 9a2.65 2.65 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 8 3.51 8.21V23z" stroke="#004B7C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                            </svg>
+                      </div>
+                  
+                      <div class="acao__icone mr-2">
+                        <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="praise-creation-large" data-supported-dps="48x48">
+                            <g fill="none" fill-rule="evenodd">
+                              <path d="M39.33 30.67l-1.6-1.2s-.66-6.35-1.82-7.58c-2.09-2.2-3.42-5.42-4.3-8.46-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a34 34 0 002 6.54l-.65-.39-15.44-11.74c-1.15-.87-2.81-1.26-3.93.24s-.22 2.89.93 3.75l8 6 2.39 1.81-12.79-9.61c-1.15-.87-2.81-1.26-3.94.24s-.21 2.92.93 3.75l8 6 4.8 3.6-10.4-7.79c-1.15-.87-2.81-1.26-3.94.24s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.87-2.78-1.29-3.86.14-1.08 1.43-.29 3 .86 3.86l14.54 11a9.79 9.79 0 007.41 1.8c.81.59 2.4 1.8 2.4 1.8a27.51 27.51 0 005.59-5.8 41.5 41.5 0 004.59-7.76z" fill="#49992A" fill-rule="nonzero"/>
+                              <path d="M29.73 23.48l-2.41-1.81" fill="#93D870" fill-rule="nonzero"/>
+                              <path d="M39.21 31l.12-.28" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M37.6 28.4c-.25-1.87-.41-7.47-1.27-8.38-2.09-2.21-3.84-3.55-4.72-6.59-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a43.76 43.76 0 002 6.92L12.81 11c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6 2.39 1.8-12.79-9.59c-1.15-.86-2.81-1.25-3.94.25s-.21 2.88.93 3.75l8 6 4.8 3.61L6.8 19c-1.15-.86-2.81-1.25-3.94.25s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.86-2.78-1.29-3.86.15s-.29 3 .86 3.85l14.53 10.68a9.79 9.79 0 007.41 1.8" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M29.73 23.48l-2.41-1.81" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M45.93 31.87l-1.6-1.2s-.66-6.36-1.82-7.58a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7c2.53 1.87 7.07 2.12 7 2.12.9.558 1.838 1.05 2.81 1.47A11.41 11.41 0 0042.93 41a17 17 0 003-9.13z" fill="#6DAE4F" fill-rule="nonzero"/>
+                              <path d="M36.33 24.67l-2.41-1.8" fill="#93D870" fill-rule="nonzero"/>
+                              <path d="M12 1.65l.79 3.52M23.2 5.95l-2.94 2.08M18.68 1l-2.15 5.6M45.77 31.88a7.52 7.52 0 01-1.62-2.66c-.18-.75-.23-1.53-.37-2.29-.22-1.17-.41-2.93-1.27-3.84a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7a9.56 9.56 0 004 1.75c.64.12 1.32.18 2.07.32a10 10 0 013.08 1 3 3 0 002.15.17 13.28 13.28 0 006.26-4.59 12.74 12.74 0 002.48-7 2.92 2.92 0 00-.2-1.65h0z" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                          </svg>
+                    </div> 
+              
+                    <div class="acao__icone mr-2">
+                        <svg width="28" height="28" viewBox="0 4 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" id="support-creation-large" data-supported-dps="48x48">
+                            <path d="M14.889 32h-.44a.729.729 0 01-.25 0c-.79-.29-4.82-1.83-7.53-2.59a.86.86 0 01-.63-.73 2.4 2.4 0 01.37-1.77 1.41 1.41 0 011.19-.58c.238 0 .475.04.7.12.538.213 1.04.506 1.49.87l.19.15 1.25.87c.46.33.87.61 1.16.83l2.92 1.19c.39.18 2 .92 2 1.34 0 .42-1.86.37-2.25.38l-.17-.08z" fill="#9983B1"/>
+                            <path d="M44.197 44.52a74.559 74.559 0 01-11.84-1.23h-.21a65.995 65.995 0 01-8.77-1.82c-2.56-.77-5.08-1.77-7.52-2.73l-1.09-.43c-2.31-.9-4.19-1.66-5.9-2.39l-.64-.27a23.572 23.572 0 01-3-1.41c-1.33-.78-1.74-1.78-1.19-3v-.09A1.93 1.93 0 016.007 30h.11c.193-.015.387-.015.58 0 2.12.23 8.27 2.57 9.48 3l4 .14h.1l9 .31c-.7-.64-2.45-1.75-6.75-2.86-.82-.21-1.56-.45-1.73-1a2.38 2.38 0 01.78-2.54 3.21 3.21 0 011.88-.42c.768 0 1.534.09 2.28.27.46.12.83.24 1.19.35.934.32 1.9.538 2.88.65a30.6 30.6 0 014.64 1.1c5 1.36 6 3.87 6.59 5.38 0-.09 0 .08 0 0-.19-.62 0-.16.1-.39l.14-.2h.34c.143.01.287.01.43 0 .86 0 2.5-.09 2.51-.09a.85.85 0 01.85.63c1.71 6.23-.64 9.69-.74 9.83a.64.64 0 01-.48.33l.01.03z" fill="#BBA9D1"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.22 11.35a5 5 0 00-7.13-.09l-.09.09a5.24 5.24 0 000 7.34l7.79 7.9 7.8-7.9c2-2.038 2-5.302 0-7.34a5.06 5.06 0 00-3.61-1.53 5 5 0 00-3.6 1.53l-.57.58-.59-.58z" fill="#DF704D"/>
+                            <path clip-rule="evenodd" d="M45.147 34.32c.358.277 1.743 2.502 1.483 5.05-.26 2.55-1.87 4.89-2.28 5.291-.411.4-15.188-1.486-18.65-2.162-3.462-.676-20.15-8.073-20.793-8.454-.642-.381-.7-3.124 1.134-3.693 1.835-.569 5.855 2.149 9.526 2.749 3.67.6 10.2.944 12.681.944s-2.681-2.162-3.895-2.643c-1.214-.481-3.203-.875-3.616-2.162-.413-1.287.926-2.24 2.026-2.24.733 0 2.695.494 5.885 1.483 3.138 0 5.737.448 7.797 1.343a9.199 9.199 0 014.68 4.495c.342.724 3.663-.276 4.022 0z" stroke="#493D57" stroke-width="2"/>
+                            <path d="M6.838 30.17C5.906 28.144 7.055 27 8.416 27c1.362 0 2.4 1.483 4.367 2.826 1.312.896 3.61 2.187 6.895 3.875" stroke="#493D57" stroke-width="2"/>
+                            <path clip-rule="evenodd" d="M16.156 10.63a5.466 5.466 0 00-7.731.056c-2.132 2.15-2.171 5.635-.089 7.835L16.77 27l8.433-8.49a5.629 5.629 0 001.52-4.86 5.574 5.574 0 00-3.01-4.084A5.258 5.258 0 0021.292 9a5.454 5.454 0 00-3.88 1.653l-.643.611-.614-.634z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                    </div> 
+        
+                    <div class="acao__icone mr-2">
+                        <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="empathy-creation-large" data-supported-dps="48x48">
+                            <g fill="none" fill-rule="evenodd">
+                              <path d="M22.9 14.9a9.91 9.91 0 10-14 14L24 44l15.1-15.07a10 10 0 00-2.67-16 9.52 9.52 0 00-4.33-1 9.84 9.84 0 00-6.95 2.93L24 16l-1.1-1.1z" fill="#DF704D"/>
+                              <path d="M22.9 14.88a9.88 9.88 0 00-14 13.94L24 43.8l15.1-15A9.86 9.86 0 0036.43 13a9.52 9.52 0 00-4.33-1h0a9.83 9.83 0 00-6.95 2.92L24 16l-1.1-1.12z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                          </svg>
+                    </div> 
+                  
+                    <div class="acao__icone mr-2">
+                        <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="interest-creation-large" data-supported-dps="48x48">
+                            <g fill="none" fill-rule="evenodd">
+                              <path d="M27 44h-6a2 2 0 01-2-2v-5h10v5a2 2 0 01-2 2z" fill="#C07800" fill-rule="nonzero"/>
+                              <path d="M21 37l8 .07a11.22 11.22 0 01.09-3.57 6.61 6.61 0 01.78-1.63 4.58 4.58 0 01.63-.69l.14-.12A11.74 11.74 0 0035 22.17c0-6.075-4.925-11-11-11s-11 4.925-11 11v.06a11.42 11.42 0 004.13 8.66 10.9 10.9 0 011.77 2.79 9.61 9.61 0 01.8 3.08l.3.24" fill="#F5BB5C" fill-rule="nonzero"/>
+                              <path d="M12 5.82l2.42 3.15M36 5.82l-2.42 3.15M24 2v4.77" stroke="#5D3B01" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M27 44h-6a2.21 2.21 0 01-2-2.1V37h10v4.9a2.21 2.21 0 01-2 2.1h0z" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M29 38c0-3.63.41-4.47.41-4.47a6.33 6.33 0 011.89-3 11.72 11.72 0 003.09-4.62c.42-1.189.64-2.44.65-3.7v-.06A11.09 11.09 0 0024 11h0c-6.121.05-11.044 5.049-11 11.17v.06c.01 1.26.23 2.511.65 3.7a11.72 11.72 0 003.09 4.62 6.33 6.33 0 011.89 3s.41.84.41 4.47" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                          </svg>
+                    </div> 
+                  
+                    <div class="acao__icone mr-2">
+                        <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="maybe-creation-large" data-supported-dps="48x48">
+                            <g fill="none" fill-rule="evenodd">
+                              <circle fill="#DEB8DC" fill-rule="nonzero" cx="24.5" cy="24.5" r="16.5"/>
+                              <path d="M22.66 8.1A16.08 16.08 0 0124.5 8a16.5 16.5 0 11-12.16 5.35" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M15 33.66l11.48-1.92a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14" fill="#DEB8DC" fill-rule="nonzero"/>
+                              <path d="M26.48 31.74a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14l10.27-1.69zM13 10a4.2 4.2 0 012.75-1.23 4.15 4.15 0 012.94.67M21 26h3" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <circle fill="#523951" fill-rule="nonzero" cx="17" cy="19" r="2"/>
+                              <circle fill="#523951" fill-rule="nonzero" cx="29" cy="20" r="2"/>
+                              <path d="M28 14.29a4.18 4.18 0 013 0A4.18 4.18 0 0133.45 16" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                          </svg>
+                    </div> 
+                        <!-- face --icosn end -->
+                      </div>
+
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                      </svg>
+                    Gostei
+                  </a>
+
+                  <button class="btn custom__btn custom__btn--transparent">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="">
+                      <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" style=""></path>
+                    </svg>
+                    Comentar
+                  </button>
+                  <button class="btn custom__btn custom__btn--transparent">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                      </svg>
+                    Compartilhar
+                  </button>
+                  <button class="btn custom__btn custom__btn--transparent">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                      <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                    </svg>
+                    Enviar
+                  </button>
+                </div>
+                    <!--================== R  E  A  T  I  O  N   E  N  D  ===================================-->
+            </div>
+      </div>
+  <!--  POSTAGEM #2 FIM           ============ POSTAGEM FIM  ============ POSTAGEM FIM ===================== POSTAGEM FIM -->
+    </div>
+        <!--   ======================  BARRA DA DEITA =========================== -->
+        <div class="d-md-none col-lg-3 d-lg-block barra barra__direita px-0">
+          <div class="card">
+              <div class="card__noticias__titulo d-flex justify-content-between align-items-center">
+                  <h6 class="px-3 pt-4">LinkedIn Notícias</h6>
+                  <span class="pt-3 pr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                        <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"></path>
+                      </svg>
+                  </span>
+              </div>
+              <div class="card__noticias__body">
+                  <!-- inico -->
+                  <div class="accordion" id="noticiario">
+                    <div class="">
+                      <div class="card-body" id="primeiro__titulo">
+                        <div class="noticia ">
+                            <div class="d-flex">
+                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
+                                </div>
+                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
+                        </div>
+                        <!--  -->
+                        <div class="noticia ">
+                            <div class="d-flex">
+                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
+                                </div>
+                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
+                        </div>
+                        <!--  -->
+                        <div class="noticia ">
+                            <div class="d-flex">
+                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
+                                </div>
+                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
+                        </div>
+                        <!-- noticias -->
+                        <h2 class="mb-0">
+                          <button class="mostrar__btn btn   text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span>Contatos</span>
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                              </svg>
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="primeiro__titulo" data-parent="#noticiario">
+                        <div class="card-body">
+                          <p>Confira outros projetos semelhantes nos links abaixo</p>
+                          
+                          
+                          <p><i class="  fa fa-facebook mr-2 info" aria-hidden="true"></i><a href="index.html" >ellsonmendesYT</a> </p>
+                          <p><i class="  fa fa-youtube mr-2 info" aria-hidden="true"></i><a href="https://www.youtube.com/c/ellsonmendesYT" target="__blank">ellsonmendesYT</a> </p>
+                          <p><i class="  fa fa-linkedin mr-2 info" aria-hidden="true"></i><a href="https://www.linkedin.com/in/elsonmendesyt" target="__blank">original</a> </p>
+                          <p><i class="  fa fa-whatsapp mr-2 info" aria-hidden="true"></i><a href="https://api.whatsapp.com/send?phone=5599988418596&text=Ol%C3%A1%20Elson%20.." target="_blank">fale comigo</a> </p>
+
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fim -->
+              </div>
+          </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+    <script src="./jquery-3.5.1.slim.min.js" ></script>
+    <script src="bootstrap.bundle.js"></script>
+   <script>
+
+  
+
+$( document ).ready(function() {
+   ///quando clicar no botao de mais, mostrar o resto de texto e esconde este botao
+   let $p,$showbtn,$showless;
+
+   $showless=$('.show__btn--less')
+    $showbtn =$('.show__btn--more');
+   $showless.css('display','none');
+  
+  
+    $showbtn.on('click', function(){
+       $p =$('.p-hidden')
+       $p.toggleClass('p-hidden');
+      $(this).css('display','none');
+      $showless.css('display','block')
+    })
+
+
+    $('.show__btn--less').on('click', function(){
+      $p.addClass('p-hidden');
+      $showbtn.css('display','block');
+      $(this).css('display','none');
+    })
+
+
+});
+
+
+   </script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<div class="postagem__barra_reacao position-relative">
+                        <div class="menu__flutuante"> 
+
+                            <div class="acao__icone mr-2">
+                                <svg class="acao" width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="like-creation-large" data-supported-dps="48x48">
+                                    <g fill="none" fill-rule="evenodd">
+                                      <path d="M25.39 22H10.13c-2 0-3.2 2.11-3.12 3.92a3.23 3.23 0 003.3 3h.57a2.75 2.75 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83 2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.61-6.09-7.84C23.8 9.83 23.71 9 22 9a2.77 2.77 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 7.08 3.51 7.25" fill="#1485BD" fill-rule="nonzero"/>
+                                      <path d="M23.49 23H10.13c-2 0-3.21 1.19-3.13 3a3.22 3.22 0 003.31 3h.57a2.76 2.76 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83v.05a2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.6-6.09-7.84C23.8 9.87 23.71 9 22 9a2.65 2.65 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 8 3.51 8.21V23z" stroke="#004B7C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                  </svg>
+                            </div>
+                        
+                            <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="praise-creation-large" data-supported-dps="48x48">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <path d="M39.33 30.67l-1.6-1.2s-.66-6.35-1.82-7.58c-2.09-2.2-3.42-5.42-4.3-8.46-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a34 34 0 002 6.54l-.65-.39-15.44-11.74c-1.15-.87-2.81-1.26-3.93.24s-.22 2.89.93 3.75l8 6 2.39 1.81-12.79-9.61c-1.15-.87-2.81-1.26-3.94.24s-.21 2.92.93 3.75l8 6 4.8 3.6-10.4-7.79c-1.15-.87-2.81-1.26-3.94.24s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.87-2.78-1.29-3.86.14-1.08 1.43-.29 3 .86 3.86l14.54 11a9.79 9.79 0 007.41 1.8c.81.59 2.4 1.8 2.4 1.8a27.51 27.51 0 005.59-5.8 41.5 41.5 0 004.59-7.76z" fill="#49992A" fill-rule="nonzero"/>
+                                    <path d="M29.73 23.48l-2.41-1.81" fill="#93D870" fill-rule="nonzero"/>
+                                    <path d="M39.21 31l.12-.28" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M37.6 28.4c-.25-1.87-.41-7.47-1.27-8.38-2.09-2.21-3.84-3.55-4.72-6.59-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a43.76 43.76 0 002 6.92L12.81 11c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6 2.39 1.8-12.79-9.59c-1.15-.86-2.81-1.25-3.94.25s-.21 2.88.93 3.75l8 6 4.8 3.61L6.8 19c-1.15-.86-2.81-1.25-3.94.25s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.86-2.78-1.29-3.86.15s-.29 3 .86 3.85l14.53 10.68a9.79 9.79 0 007.41 1.8" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M29.73 23.48l-2.41-1.81" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M45.93 31.87l-1.6-1.2s-.66-6.36-1.82-7.58a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7c2.53 1.87 7.07 2.12 7 2.12.9.558 1.838 1.05 2.81 1.47A11.41 11.41 0 0042.93 41a17 17 0 003-9.13z" fill="#6DAE4F" fill-rule="nonzero"/>
+                                    <path d="M36.33 24.67l-2.41-1.8" fill="#93D870" fill-rule="nonzero"/>
+                                    <path d="M12 1.65l.79 3.52M23.2 5.95l-2.94 2.08M18.68 1l-2.15 5.6M45.77 31.88a7.52 7.52 0 01-1.62-2.66c-.18-.75-.23-1.53-.37-2.29-.22-1.17-.41-2.93-1.27-3.84a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7a9.56 9.56 0 004 1.75c.64.12 1.32.18 2.07.32a10 10 0 013.08 1 3 3 0 002.15.17 13.28 13.28 0 006.26-4.59 12.74 12.74 0 002.48-7 2.92 2.92 0 00-.2-1.65h0z" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </g>
+                                </svg>
+                          </div> 
+                     
+                          <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" id="support-creation-large" data-supported-dps="48x48">
+                                  <path d="M14.889 32h-.44a.729.729 0 01-.25 0c-.79-.29-4.82-1.83-7.53-2.59a.86.86 0 01-.63-.73 2.4 2.4 0 01.37-1.77 1.41 1.41 0 011.19-.58c.238 0 .475.04.7.12.538.213 1.04.506 1.49.87l.19.15 1.25.87c.46.33.87.61 1.16.83l2.92 1.19c.39.18 2 .92 2 1.34 0 .42-1.86.37-2.25.38l-.17-.08z" fill="#9983B1"/>
+                                  <path d="M44.197 44.52a74.559 74.559 0 01-11.84-1.23h-.21a65.995 65.995 0 01-8.77-1.82c-2.56-.77-5.08-1.77-7.52-2.73l-1.09-.43c-2.31-.9-4.19-1.66-5.9-2.39l-.64-.27a23.572 23.572 0 01-3-1.41c-1.33-.78-1.74-1.78-1.19-3v-.09A1.93 1.93 0 016.007 30h.11c.193-.015.387-.015.58 0 2.12.23 8.27 2.57 9.48 3l4 .14h.1l9 .31c-.7-.64-2.45-1.75-6.75-2.86-.82-.21-1.56-.45-1.73-1a2.38 2.38 0 01.78-2.54 3.21 3.21 0 011.88-.42c.768 0 1.534.09 2.28.27.46.12.83.24 1.19.35.934.32 1.9.538 2.88.65a30.6 30.6 0 014.64 1.1c5 1.36 6 3.87 6.59 5.38 0-.09 0 .08 0 0-.19-.62 0-.16.1-.39l.14-.2h.34c.143.01.287.01.43 0 .86 0 2.5-.09 2.51-.09a.85.85 0 01.85.63c1.71 6.23-.64 9.69-.74 9.83a.64.64 0 01-.48.33l.01.03z" fill="#BBA9D1"/>
+                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.22 11.35a5 5 0 00-7.13-.09l-.09.09a5.24 5.24 0 000 7.34l7.79 7.9 7.8-7.9c2-2.038 2-5.302 0-7.34a5.06 5.06 0 00-3.61-1.53 5 5 0 00-3.6 1.53l-.57.58-.59-.58z" fill="#DF704D"/>
+                                  <path clip-rule="evenodd" d="M45.147 34.32c.358.277 1.743 2.502 1.483 5.05-.26 2.55-1.87 4.89-2.28 5.291-.411.4-15.188-1.486-18.65-2.162-3.462-.676-20.15-8.073-20.793-8.454-.642-.381-.7-3.124 1.134-3.693 1.835-.569 5.855 2.149 9.526 2.749 3.67.6 10.2.944 12.681.944s-2.681-2.162-3.895-2.643c-1.214-.481-3.203-.875-3.616-2.162-.413-1.287.926-2.24 2.026-2.24.733 0 2.695.494 5.885 1.483 3.138 0 5.737.448 7.797 1.343a9.199 9.199 0 014.68 4.495c.342.724 3.663-.276 4.022 0z" stroke="#493D57" stroke-width="2"/>
+                                  <path d="M6.838 30.17C5.906 28.144 7.055 27 8.416 27c1.362 0 2.4 1.483 4.367 2.826 1.312.896 3.61 2.187 6.895 3.875" stroke="#493D57" stroke-width="2"/>
+                                  <path clip-rule="evenodd" d="M16.156 10.63a5.466 5.466 0 00-7.731.056c-2.132 2.15-2.171 5.635-.089 7.835L16.77 27l8.433-8.49a5.629 5.629 0 001.52-4.86 5.574 5.574 0 00-3.01-4.084A5.258 5.258 0 0021.292 9a5.454 5.454 0 00-3.88 1.653l-.643.611-.614-.634z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                          </div> 
+                      
+
+
+                          <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="empathy-creation-large" data-supported-dps="48x48">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <path d="M22.9 14.9a9.91 9.91 0 10-14 14L24 44l15.1-15.07a10 10 0 00-2.67-16 9.52 9.52 0 00-4.33-1 9.84 9.84 0 00-6.95 2.93L24 16l-1.1-1.1z" fill="#DF704D"/>
+                                    <path d="M22.9 14.88a9.88 9.88 0 00-14 13.94L24 43.8l15.1-15A9.86 9.86 0 0036.43 13a9.52 9.52 0 00-4.33-1h0a9.83 9.83 0 00-6.95 2.92L24 16l-1.1-1.12z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </g>
+                                </svg>
+                          </div> 
+                        
+
+
+
+                          <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="interest-creation-large" data-supported-dps="48x48">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <path d="M27 44h-6a2 2 0 01-2-2v-5h10v5a2 2 0 01-2 2z" fill="#C07800" fill-rule="nonzero"/>
+                                    <path d="M21 37l8 .07a11.22 11.22 0 01.09-3.57 6.61 6.61 0 01.78-1.63 4.58 4.58 0 01.63-.69l.14-.12A11.74 11.74 0 0035 22.17c0-6.075-4.925-11-11-11s-11 4.925-11 11v.06a11.42 11.42 0 004.13 8.66 10.9 10.9 0 011.77 2.79 9.61 9.61 0 01.8 3.08l.3.24" fill="#F5BB5C" fill-rule="nonzero"/>
+                                    <path d="M12 5.82l2.42 3.15M36 5.82l-2.42 3.15M24 2v4.77" stroke="#5D3B01" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M27 44h-6a2.21 2.21 0 01-2-2.1V37h10v4.9a2.21 2.21 0 01-2 2.1h0z" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M29 38c0-3.63.41-4.47.41-4.47a6.33 6.33 0 011.89-3 11.72 11.72 0 003.09-4.62c.42-1.189.64-2.44.65-3.7v-.06A11.09 11.09 0 0024 11h0c-6.121.05-11.044 5.049-11 11.17v.06c.01 1.26.23 2.511.65 3.7a11.72 11.72 0 003.09 4.62 6.33 6.33 0 011.89 3s.41.84.41 4.47" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </g>
+                                </svg>
+                          </div> 
+                         
+                          <div class="acao__icone mr-2">
+                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="maybe-creation-large" data-supported-dps="48x48">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <circle fill="#DEB8DC" fill-rule="nonzero" cx="24.5" cy="24.5" r="16.5"/>
+                                    <path d="M22.66 8.1A16.08 16.08 0 0124.5 8a16.5 16.5 0 11-12.16 5.35" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15 33.66l11.48-1.92a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14" fill="#DEB8DC" fill-rule="nonzero"/>
+                                    <path d="M26.48 31.74a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14l10.27-1.69zM13 10a4.2 4.2 0 012.75-1.23 4.15 4.15 0 012.94.67M21 26h3" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle fill="#523951" fill-rule="nonzero" cx="17" cy="19" r="2"/>
+                                    <circle fill="#523951" fill-rule="nonzero" cx="29" cy="20" r="2"/>
+                                    <path d="M28 14.29a4.18 4.18 0 013 0A4.18 4.18 0 0133.45 16" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </g>
+                                </svg>
+                          </div> 
+                      </div>
+
+                      
+                      <div class="postagem__barra__acoes">
+                          <button class="botao botao__gostar">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                              <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
+                              </svg>
+                              <span>Gostei</span>
+                          </button>
+                          <button class="botao">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                  <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
+                                  </svg>
+                                  <span>Comentar</span>
+                          </button>
+                          <button class="botao">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                  <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+                                  </svg>
+                                  <span>Compartilhar</span>
+                          </button>
+                          <button class="botao">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                  <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                                  </svg>
+                                  <span>Enviar</span>
+                          </button>
+                      </div>
+                  </div>
+                
+
+ -->
+
+
+
+
+
+
+
+
+
+<!-- 
+
+               <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
+                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                  </svg>
+            </div>
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"></path>
+                  </svg>
+            </div>
+ -->

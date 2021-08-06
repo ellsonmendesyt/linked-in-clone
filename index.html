@@ -4,689 +4,704 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:type" content="developer" /> 
+    <meta property="og:url" content="https://github.com/ellsonmendesyt/ellsonmendesyt.github.io">
+    <meta property="og:title" content="Recriando o facebook do zero">
+    <meta property="og:site_name" content="RECRIAÇAO DO FACEBOOK">
+
+    <meta property="og:image" content="https://github.com/ellsonmendesyt/ellsonmendesyt.github.io/blob/facebook/thumbnail.jpg">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200"> 
+    <meta property="og:image:height" content="627">
+
+
+    <!--  -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap.css" >
-     <link rel="stylesheet" href="main.css">
-    <title>Linkedin clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" href="./ims/favs/face.png">
+    
+    <link rel="stylesheet" href="custom.css">
+    <title>ellsonmendesYT</title>
   </head>
+
+
+  <!-- //////////////////////////////////////////                    L A Y O U T    F A C E B O O K    ////////////////////////////////////////// -->
+                                            <!--  CODIGO FONTE NA DESCRIÇÃO     GRUPO FACEBOOK: TOP DAS GALAXIAS  ellsonmendesYT -->
+
+
+
   <body>
+  <!-- /////// BARRA DE NAVEGAÇAO  -->
+  <nav class="navbar navbar-expand navbar-light bg-light barra-navegacao sticky-top px-5 py-0 ">
+  
+    
+   
+    
+      <!-- LOGO -->
+      <a class="navbar-brand " href="#"><img src="./ims/icon3.png" ></a>
+      <!-- barra de busca -->
+      <form class="form-inline my-2 my-lg-0">
+        <!-- <input type="text" class="form-control input-comentario  pesquisa-topo"> <i class="fa fa-search" aria-hidden="true"></i></input> -->
+        <!-- <button class="gray btn pesquisa-topo icon-fb"><i class="fa fa-search"></i></button> -->
+        <input type="text" class=" mr-sm-3 form-control pesquisa-topo iconf-fb" placeholder="&#xF002;    Pesquisar no facebook">
+        <svg viewBox="0 0 28 28" class="d-md-none ml-2 " height="28" width="28"><path d="M23.5 4a1.5 1.5 0 110 3h-19a1.5 1.5 0 110-3h19zm0 18a1.5 1.5 0 110 3h-19a1.5 1.5 0 110-3h19zm0-9a1.5 1.5 0 110 3h-19a1.5 1.5 0 110-3h19z"></path></svg>
+      </form>
+      <!-- menu central -->
+      <ul class="navbar-nav m-auto mt-2 mt-lg-0 d-none d-lg-flex align-items-center menu-central">
+        <li class="nav-item back ">
+          <a class="nav-link  px-md-2 " href="#">
+            <svg viewBox="0 0 28 28" class="" fill="gray" height="28" width="28"><path d="M17.5 23.979 21.25 23.979C21.386 23.979 21.5 23.864 21.5 23.729L21.5 13.979C21.5 13.427 21.949 12.979 22.5 12.979L24.33 12.979 14.017 4.046 3.672 12.979 5.5 12.979C6.052 12.979 6.5 13.427 6.5 13.979L6.5 23.729C6.5 23.864 6.615 23.979 6.75 23.979L10.5 23.979 10.5 17.729C10.5 17.04 11.061 16.479 11.75 16.479L16.25 16.479C16.939 16.479 17.5 17.04 17.5 17.729L17.5 23.979ZM21.25 25.479 17 25.479C16.448 25.479 16 25.031 16 24.479L16 18.327C16 18.135 15.844 17.979 15.652 17.979L12.348 17.979C12.156 17.979 12 18.135 12 18.327L12 24.479C12 25.031 11.552 25.479 11 25.479L6.75 25.479C5.784 25.479 5 24.695 5 23.729L5 14.479 3.069 14.479C2.567 14.479 2.079 14.215 1.868 13.759 1.63 13.245 1.757 12.658 2.175 12.29L13.001 2.912C13.248 2.675 13.608 2.527 13.989 2.521 14.392 2.527 14.753 2.675 15.027 2.937L25.821 12.286C25.823 12.288 25.824 12.289 25.825 12.29 26.244 12.658 26.371 13.245 26.133 13.759 25.921 14.215 25.434 14.479 24.931 14.479L23 14.479 23 23.729C23 24.695 22.217 25.479 21.25 25.479Z"></path></svg>
+            </a>
+        </li>
+        <li class="nav-item back">
+          <a class="nav-link px-md-3" href="#">
+            <svg viewBox="0 0 28 28" fill="gray" height="28" width="28"><path d="M8.75 25.25C8.336 25.25 8 24.914 8 24.5 8 24.086 8.336 23.75 8.75 23.75L19.25 23.75C19.664 23.75 20 24.086 20 24.5 20 24.914 19.664 25.25 19.25 25.25L8.75 25.25ZM17.163 12.846 12.055 15.923C11.591 16.202 11 15.869 11 15.327L11 9.172C11 8.631 11.591 8.297 12.055 8.576L17.163 11.654C17.612 11.924 17.612 12.575 17.163 12.846ZM21.75 20.25C22.992 20.25 24 19.242 24 18L24 6.5C24 5.258 22.992 4.25 21.75 4.25L6.25 4.25C5.008 4.25 4 5.258 4 6.5L4 18C4 19.242 5.008 20.25 6.25 20.25L21.75 20.25ZM21.75 21.75 6.25 21.75C4.179 21.75 2.5 20.071 2.5 18L2.5 6.5C2.5 4.429 4.179 2.75 6.25 2.75L21.75 2.75C23.821 2.75 25.5 4.429 25.5 6.5L25.5 18C25.5 20.071 23.821 21.75 21.75 21.75Z"></path></svg>
+          </a>
+        </li>
+        <li class="nav-item back">
+          <a class="nav-link px-md-3" href="#">
+            <svg viewBox="0 0 28 28" fill="gray" height="28" width="28"><path d="M17.5 23.75 21.75 23.75C22.164 23.75 22.5 23.414 22.5 23L22.5 14 22.531 14C22.364 13.917 22.206 13.815 22.061 13.694L21.66 13.359C21.567 13.283 21.433 13.283 21.34 13.36L21.176 13.497C20.591 13.983 19.855 14.25 19.095 14.25L18.869 14.25C18.114 14.25 17.382 13.987 16.8 13.506L16.616 13.354C16.523 13.278 16.39 13.278 16.298 13.354L16.113 13.507C15.53 13.987 14.798 14.25 14.044 14.25L13.907 14.25C13.162 14.25 12.439 13.994 11.861 13.525L11.645 13.35C11.552 13.275 11.419 13.276 11.328 13.352L11.155 13.497C10.57 13.984 9.834 14.25 9.074 14.25L8.896 14.25C8.143 14.25 7.414 13.989 6.832 13.511L6.638 13.351C6.545 13.275 6.413 13.275 6.32 13.351L5.849 13.739C5.726 13.84 5.592 13.928 5.452 14L5.5 14 5.5 23C5.5 23.414 5.836 23.75 6.25 23.75L10.5 23.75 10.5 17.5C10.5 16.81 11.06 16.25 11.75 16.25L16.25 16.25C16.94 16.25 17.5 16.81 17.5 17.5L17.5 23.75ZM3.673 8.75 24.327 8.75C24.3 8.66 24.271 8.571 24.238 8.483L23.087 5.355C22.823 4.688 22.178 4.25 21.461 4.25L6.54 4.25C5.822 4.25 5.177 4.688 4.919 5.338L3.762 8.483C3.729 8.571 3.7 8.66 3.673 8.75ZM24.5 10.25 3.5 10.25 3.5 12C3.5 12.414 3.836 12.75 4.25 12.75L4.421 12.75C4.595 12.75 4.763 12.69 4.897 12.58L5.368 12.193C6.013 11.662 6.945 11.662 7.59 12.193L7.784 12.352C8.097 12.609 8.49 12.75 8.896 12.75L9.074 12.75C9.483 12.75 9.88 12.607 10.194 12.345L10.368 12.2C11.01 11.665 11.941 11.659 12.589 12.185L12.805 12.359C13.117 12.612 13.506 12.75 13.907 12.75L14.044 12.75C14.45 12.75 14.844 12.608 15.158 12.35L15.343 12.197C15.989 11.663 16.924 11.663 17.571 12.197L17.755 12.35C18.068 12.608 18.462 12.75 18.869 12.75L19.095 12.75C19.504 12.75 19.901 12.606 20.216 12.344L20.38 12.208C21.028 11.666 21.972 11.666 22.62 12.207L23.022 12.542C23.183 12.676 23.387 12.75 23.598 12.75 24.097 12.75 24.5 12.347 24.5 11.85L24.5 10.25ZM24 14.217 24 23C24 24.243 22.993 25.25 21.75 25.25L6.25 25.25C5.007 25.25 4 24.243 4 23L4 14.236C2.875 14.112 2 13.158 2 12L2 9.951C2 9.272 2.12 8.6 2.354 7.964L3.518 4.802C4.01 3.563 5.207 2.75 6.54 2.75L21.461 2.75C22.793 2.75 23.99 3.563 24.488 4.819L25.646 7.964C25.88 8.6 26 9.272 26 9.951L26 11.85C26 13.039 25.135 14.026 24 14.217ZM16 23.75 16 17.75 12 17.75 12 23.75 16 23.75Z"></path></svg>
+          </a>
+        </li>
+        <li class="nav-item back ">
+          <a class="nav-link px-md-3 " href="#">
+            <svg viewBox="0 0 28 28" fill="gray" height="28" width="28"><path d="M25.5 14C25.5 7.649 20.351 2.5 14 2.5 7.649 2.5 2.5 7.649 2.5 14 2.5 20.351 7.649 25.5 14 25.5 20.351 25.5 25.5 20.351 25.5 14ZM27 14C27 21.18 21.18 27 14 27 6.82 27 1 21.18 1 14 1 6.82 6.82 1 14 1 21.18 1 27 6.82 27 14ZM7.479 14 7.631 14C7.933 14 8.102 14.338 7.934 14.591 7.334 15.491 6.983 16.568 6.983 17.724L6.983 18.221C6.983 18.342 6.99 18.461 7.004 18.578 7.03 18.802 6.862 19 6.637 19L6.123 19C5.228 19 4.5 18.25 4.5 17.327 4.5 15.492 5.727 14 7.479 14ZM20.521 14C22.274 14 23.5 15.492 23.5 17.327 23.5 18.25 22.772 19 21.878 19L21.364 19C21.139 19 20.97 18.802 20.997 18.578 21.01 18.461 21.017 18.342 21.017 18.221L21.017 17.724C21.017 16.568 20.667 15.491 20.067 14.591 19.899 14.338 20.067 14 20.369 14L20.521 14ZM8.25 13C7.147 13 6.25 11.991 6.25 10.75 6.25 9.384 7.035 8.5 8.25 8.5 9.465 8.5 10.25 9.384 10.25 10.75 10.25 11.991 9.353 13 8.25 13ZM19.75 13C18.647 13 17.75 11.991 17.75 10.75 17.75 9.384 18.535 8.5 19.75 8.5 20.965 8.5 21.75 9.384 21.75 10.75 21.75 11.991 20.853 13 19.75 13ZM15.172 13.5C17.558 13.5 19.5 15.395 19.5 17.724L19.5 18.221C19.5 19.202 18.683 20 17.677 20L10.323 20C9.317 20 8.5 19.202 8.5 18.221L8.5 17.724C8.5 15.395 10.441 13.5 12.828 13.5L15.172 13.5ZM16.75 9C16.75 10.655 15.517 12 14 12 12.484 12 11.25 10.655 11.25 9 11.25 7.15 12.304 6 14 6 15.697 6 16.75 7.15 16.75 9Z"></path></svg>
+          </a>
+        </li>
+        <li class="nav-item back">
+          <a class="nav-link px-md-3" href="#">
+            <svg viewBox="0 0 28 28" fill="gray" height="28" width="28"><path d="M23.5 9.5H10.25a.75.75 0 00-.75.75v7c0 .414.336.75.75.75H17v5.5H4.5v-19h19v5zm0 14h-5v-6.25a.75.75 0 00-.75-.75H11V11h12.5v12.5zm1.5.25V4.25C25 3.561 24.439 3 23.75 3H4.25C3.561 3 3 3.561 3 4.25v19.5c0 .689.561 1.25 1.25 1.25h19.5c.689 0 1.25-.561 1.25-1.25z"></path></svg>
+          </a>
+        </li>
+      </ul>
+      <!-- menu da direita -->
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0  ">
+        <li class="nav-item  active">
+          <a class="nav-link mr-2 btn-back  " href="#"><img src="./ims/favs/cruz.png" width="28"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-back mr-2" href="#"><img src="./ims/favs/mensagem.png.png" width="20"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-2 btn-back" href="#">
+            <svg viewBox="0 0 28 28" alt="" class="" height="24" width="22"><path d="M7.847 23.488C9.207 23.488 11.443 23.363 14.467 22.806 13.944 24.228 12.581 25.247 10.98 25.247 9.649 25.247 8.483 24.542 7.825 23.488L7.847 23.488ZM24.923 15.73C25.17 17.002 24.278 18.127 22.27 19.076 21.17 19.595 18.724 20.583 14.684 21.369 11.568 21.974 9.285 22.113 7.848 22.113 7.421 22.113 7.068 22.101 6.79 22.085 4.574 21.958 3.324 21.248 3.077 19.976 2.702 18.049 3.295 17.305 4.278 16.073L4.537 15.748C5.2 14.907 5.459 14.081 5.035 11.902 4.086 7.022 6.284 3.687 11.064 2.753 15.846 1.83 19.134 4.096 20.083 8.977 20.506 11.156 21.056 11.824 21.986 12.355L21.986 12.356 22.348 12.561C23.72 13.335 24.548 13.802 24.923 15.73Z"></path></svg>
+          </a>
+        </li>
+        <li class="nav-item no-back ">
+          <a class="nav-link btn-back   " href="#"><img src="./ims/favs/down-arrow.png" width="25"></i></a>
+        </li>
+      </ul>
+      <!-- botoes -->
+  
+  </nav>
+  <!-- /////// BARRA DE NAVEGAÇAO FIM -->
+    <!--  /////////  HERO SECTION ///////////// -->
+  <section class="hero ">
+  <div class="container ">
 
-    <nav class="navbar navbar-light bg-light justify-content-between ">
-        <!-- LOGO -->
-    <div class="container">
-        <ul class="nav">
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" ><g><path d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z" fill="#0a66c2"></path></g></svg>
-              </a>
-            </li>
-            <!-- barra de busca -->
-            <li class="nav-item align-items-center d-flex">
-                <div class="search-bar__wrapper d-flex align-items-center ">
-                    <div class="search-bar__icon mr-2 d-flex align-items-center">
-                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="#666666" class="mercado-match" width="24" height="24" focusable="false">
-                            <path d="M21.41 18.59l-5.27-5.28A6.83 6.83 0 0017 10a7 7 0 10-7 7 6.83 6.83 0 003.31-.86l5.28 5.27a2 2 0 002.82-2.82zM5 10a5 5 0 115 5 5 5 0 01-5-5z" fill-opacity="0.6" fill="#666666"></path>
-                          </svg>
-                    </div>
-                    <div class="search-bar__box d-none d-md-block ">
-                        <input class="search-bar__field" type="text" placeholder="Pesquisar">
-                    </div>
-                </div>
-            </li>
-        </ul>
-      
-        <!-- LISTA DO MEIO -->
-        <ul class="nav ">
-            <!-- icone #1 -->
-            <li class="nav-item ml-2 mr-2 mr-lg-4">
-              <div class="item-box d-flex flex-column text-center">
-                  <div class="item-icon">
-                    <svg id="global-nav-icon--mercado__home" height="24" width="24">
-                        <path d="m23 9v2h-2v7c0 1.7-1.3 3-3 3h-4v-6h-4v6h-4c-1.7 0-3-1.3-3-3v-7h-2v-2l11-7z"></path>
-                      </svg>
-                  </div>
-                  <div class="item-caption text-white">Inicio</div>
-              </div>
-            </li>
-            <!-- icone #2 -->
-            <li class="nav-item mr-3 mr-lg-4">
-                <div class="item-box d-flex flex-column text-center ">
-                    <div class="item-icon">
-                        <svg id="global-nav-icon--mercado__my-network" height="24" width="24">
-                            <path d="m12 16v6h-9v-6c0-1.7 1.3-3 3-3h3c1.7 0 3 1.3 3 3zm5.5-3c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5zm1 2h-2c-1.4 0-2.5 1.1-2.5 2.5v4.5h7v-4.5c0-1.4-1.1-2.5-2.5-2.5zm-11-13c-2.5 0-4.5 2-4.5 4.5s2 4.5 4.5 4.5 4.5-2 4.5-4.5-2-4.5-4.5-4.5z"></path>
-                          </svg>
-                    </div>
-                    <div class="item-caption text-white">Minha rede</div>
-                </div>
-              </li> 
-           <!-- icone #3 -->
-           <li class="nav-item mr-3 mr-lg-4">
-            <div class="item-box d-flex flex-column text-center">
-                <div class="item-icon">
-                    <svg id="global-nav-icon--mercado__jobs" height="24" width="24">
-                        <path d="m17 6v-1c0-1.7-1.3-3-3-3h-4c-1.7 0-3 1.3-3 3v1h-5v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4zm-8-1c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v1h-6zm10 9c1.2 0 2.3-.5 3-1.4v4.4c0 1.7-1.3 3-3 3h-14c-1.7 0-3-1.3-3-3v-4.4c.7.9 1.8 1.4 3 1.4z"></path>
-                      </svg>
-                </div>
-                <div class="item-caption text-white">Vagas</div>
-            </div>
-          </li> 
-           <!-- icone #4 -->
-           <li class="nav-item mr-3 mr-lg-4">
-            <div class="item-box d-flex flex-column text-center">
-                <div class="item-icon">
-                    <svg id="global-nav-icon--mercado__messaging" height="24" width="24">
-                        <path d="M16 3H8C6.14348 3 4.36301 3.77847 3.05025 5.16416C1.7375 6.54984 1 8.42923 1 10.3889C1 12.3485 1.7375 14.2279 3.05025 15.6136C4.36301 16.9993 6.14348 17.7778 8 17.7778H12V22L20.16 16.3106C21.0512 15.639 21.7751 14.7495 22.2697 13.7183C22.7643 12.687 23.0148 11.5446 23 10.3889C23 8.42923 22.2625 6.54984 20.9497 5.16416C19.637 3.77847 17.8565 3 16 3ZM8 11.7083C7.75277 11.7083 7.5111 11.631 7.30554 11.486C7.09998 11.341 6.93976 11.1349 6.84515 10.8938C6.75054 10.6527 6.72579 10.3874 6.77402 10.1315C6.82225 9.87553 6.9413 9.64043 7.11612 9.4559C7.29093 9.27137 7.51366 9.14571 7.75614 9.0948C7.99861 9.04389 8.24995 9.07002 8.47835 9.16988C8.70676 9.26975 8.90199 9.43886 9.03934 9.65585C9.17669 9.87283 9.25 10.1279 9.25 10.3889C9.25 10.7388 9.1183 11.0744 8.88388 11.3219C8.64946 11.5693 8.33152 11.7083 8 11.7083ZM12 11.7083C11.7528 11.7083 11.5111 11.631 11.3055 11.486C11.1 11.341 10.9398 11.1349 10.8452 10.8938C10.7505 10.6527 10.7258 10.3874 10.774 10.1315C10.8222 9.87553 10.9413 9.64043 11.1161 9.4559C11.2909 9.27137 11.5137 9.14571 11.7561 9.0948C11.9986 9.04389 12.2499 9.07002 12.4784 9.16988C12.7068 9.26975 12.902 9.43886 13.0393 9.65585C13.1767 9.87283 13.25 10.1279 13.25 10.3889C13.25 10.7388 13.1183 11.0744 12.8839 11.3219C12.6495 11.5693 12.3315 11.7083 12 11.7083ZM16 11.7083C15.7528 11.7083 15.5111 11.631 15.3055 11.486C15.1 11.341 14.9398 11.1349 14.8452 10.8938C14.7505 10.6527 14.7258 10.3874 14.774 10.1315C14.8222 9.87553 14.9413 9.64043 15.1161 9.4559C15.2909 9.27137 15.5137 9.14571 15.7561 9.0948C15.9986 9.04389 16.2499 9.07002 16.4784 9.16988C16.7068 9.26975 16.902 9.43886 17.0393 9.65585C17.1767 9.87283 17.25 10.1279 17.25 10.3889C17.25 10.7388 17.1183 11.0744 16.8839 11.3219C16.6495 11.5693 16.3315 11.7083 16 11.7083Z"></path>
-                      </svg>
-                </div>
-                <div class="item-caption text-white">Mensagens</div>
-            </div>
-          </li> 
-           <!-- icone #5 -->
-           <li class="nav-item mr-3 mr-lg-4">
-            <div class="item-box d-flex flex-column text-center">
-                <div class="item-icon">
-                    <svg id="global-nav-icon--mercado__notifications--active" height="24" width="24">
-                        <path d="M21.4 17L20.7 15.6L5.2 12.2L4 13.1C3 13.9 2.4 14.7 2.2 15.6L2 16.6L21.7 21L21.9 20C22 19.7 22 19.5 22 19.2C22 18.5 21.8 17.8 21.4 17Z"></path>
-                        <path d="M20.5 8.8C20.8 5.7 18.7 2.8 15.6 2.1C15.1 2 14.6 2 14.2 2C11.6 2 9.19999 3.6 8.29999 6.1L6.29999 11.4L20.1 14.5L20.5 8.8Z"></path>
-                        <path d="M11 20C11 21.1 11.9 22 13 22C14.1 22 15 21.1 15 20C15 19.8 15 19.7 14.9 19.5L11.4 18.7C11.2 19.1 11 19.5 11 20Z"></path>
-                      </svg>
-                </div>
-                <div class="item-caption text-white">Notificações</div>
-            </div>
-          </li> 
-           <!-- icone #6 -->
-           <li class="nav-item mr-3 mr-lg-5 position-relative">
-            <div class="item-box d-flex flex-column text-center border-item">
-                <div class="item-img-round">
-                  <img src="./imgs/elson.jpg" alt="avatar">
-                </div>
-                <div class="item-caption text-white">Eu
-                    <span>
-                        <svg id="global-nav-icon--classic__down-arrow" width="16" height="16" data-supported-dps="16x16">
-                            <path d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"></path>
-                          </svg>
-                    </span>
-                </div>
-            </div>
-          </li> 
-          </ul>
-        <!-- LISTA DA DIREITA -->
-     
-        <ul class="nav flex-md-grow-0 flex-lg-grow-1 ">
-            <!-- icone #0 -->
-            <li class="nav-item mr-3 d-md-none">
-                <div class="item-box d-flex flex-column text-center">
-                    <div class="item-icon">
-                        <svg id="global-nav-icon--classic__overflow" width="24" height="24">
-                            <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
-                          </svg>
-                    </div>
-                    <div class="item-caption text-white">Soluções
-                        <span>
-                            <svg id="global-nav-icon--classic__down-arrow" width="16" height="16" data-supported-dps="16x16">
-                                <path d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"></path>
-                              </svg>
-                        </span>
-                    </div>
-                </div>
-              </li> 
-            <!-- icone #1 -->
-            <li class="nav-item mr-3 d-none d-md-block">
-                <div class="item-box d-flex flex-column text-center">
-                    <div class="item-icon">
-                        <svg id="global-nav-icon--classic__work" height="24" width="24">
-                            <path d="M10 10h4v4h-4v-4zm0 11h4v-4h-4v4zm-7-7h4v-4H3v4zm0 7h4v-4H3v4zM3 7h4V3H3v4zm14 7h4v-4h-4v4zm0-11v4h4V3h-4zm-7 4h4V3h-4v4zm7 14h4v-4h-4v4z"></path>
-                        </svg>
-                    </div>
-                    <div class="item-caption text-white">Soluções
-                        <span>
-                            <svg id="global-nav-icon--classic__down-arrow" width="16" height="16" data-supported-dps="16x16">
-                                <path d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"></path>
-                              </svg>
-                        </span>
-                    </div>
-                </div>
-              </li> 
-            <!--  -->
-            <li class="nav-item mr-3 d-none d-md-block">
-                <div class="item-box d-flex flex-column text-center">
-                    <div class="item-icon">
-                        <svg id="global-nav-icon--classic__post-a-job" height="24" width="24">
-                            <circle cx="12" cy="4" r="2" opacity=".7"></circle>
-                            <path d="M21 10H3a1 1 0 00-1 1v10a1 1 0 001 1h18a1 1 0 001-1V11a1 1 0 00-1-1zm-5 9H8v-2h8v2zm2-4H6v-2h12v2z"></path>
-                            <g opacity=".55">
-                              <path d="M9.57 5.75l-2.41 4.83 1.68.84 2.28-4.57a3 3 0 01-1.55-1.1zM14.43 5.75a3 3 0 01-1.55 1.1l2.28 4.57 1.68-.84z" opacity=".55"></path>
-                            </g>
-                          </svg>
-                    </div>
-                    <div class="item-caption text-white">Anunciar vaga
-                    </div>
-                </div>
-              </li>
-        </ul>
-    </div>
-      </nav>
-      <!-- BARRA DE NAVEGAÇÃO -->
 
-    <div class="container">
+    <!-- BANNER PRINCIPAL -->
+    <div class="row justify-content-center ">
+      <div class="col-md-12 text-center align-items-center  rounded bg-dark-100 position-relative" id="main-banner">
+        <img src="./ims/bg.jpg" width="90%" class="rounded">
 
-    <div class="row">
-         <!--   ======================  BARRA DA ESQUERDA =========================== -->
-        <div class="col-md-4 col-lg-3 barra barra__esquerda">
-         <div class="card">
-             <div class="card-header card__header"></div>
-            
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item card__nome_cargo">
-                        <h6 class="text-center mt-5 ">Elson Mendes</h6>
-                        <p class="cargo text-muted text-center mb-0">Desenvolvedor web front end</p>
-                    </li>
-                    <li class="list-group-item ">
-                      <div class="d-flex justify-content-between">
-                          <a >Quem viu seu perfil</a>
-                          <span>60</span>
-                      </div>
-                      <div class="d-flex justify-content-between">
-                        <a class="mb-0">Viram seu video</a>
-                        <span>10</span>
-                    </div>
-                    </li>
-                    <li class="list-group-item card__cta">
-                        <p>Acesse ferramentas e estatísticas exclusivas</p>
-                        <div class="cta d-flex">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
-                                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
-                                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
-                                  </svg>
-                            </span>
-                            <span> 50% de desconto na conta Premium</span>
-                        </div>
-                    </li>
-                    <li class="list-group-item card__itens">
-                        <div class="cta d-flex">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
-                                    <path d="M12 1H4a1 1 0 00-1 1v13.64l5-3.36 5 3.36V2a1 1 0 00-1-1z"></path>
-                                  </svg>
-                            </span>
-                            <span> Meus itens</span>
-                        </div>
-                    </li>
-                  </ul>
-             
-         </div>
-        </div>
-        <!--     ======================= BARRA CENTRAL  ============================== -->
-        <div class="col-md-8 col-lg-6 barra barra__feed">
-            <!-- xxx compartilhamento xx -->
-            <div class="card card__share">
-              <div class="card-body">
-                  <div class="card__top d-flex justify-content-between align-items-center">
-                      <div class="card__share__avatar">
-                          <img src="./imgs/elson.jpg" alt="">
-                      </div>
-                      <div class="card__publish w-100 ml-2 ">
-                          <button class="w-100 publicar__btn">Começar publicar</button>
-                      </div>
-                  </div>
-                  <div class="card__bottom mt-3 d-flex justify-content-between">
-                      <!-- #1 -->
-                      <div class="share__type d-flex align-items-center">
-                          <div class="share__type__icon">
-                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                                <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z" fill="#70B5F9"></path>
-                              </svg>
-                          </div>
-                          <span class="share__type__caption ">&nbsp;&nbsp;Foto</span>
-                      </div>
-                      <!-- #2 -->
-                      <div class="share__type d-flex align-items-center">
-                        <div class="share__type__icon">
-                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                                <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z" fill="#7FC15E"></path>
-                              </svg>
-                        </div>
-                        <span class="share__type__caption ">
-                          &nbsp;&nbsp;Video
-                        </span>
-                    </div>
-                    <!--  -->
-                      <!-- #3 -->
-                      <div class="share__type d-flex align-items-center">
-                        <div class="share__type__icon">
-                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                                <path d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z" fill="#E7A33E"></path>
-                              </svg>
-                        </div>
-                        <span class="share__type__caption ">
-                          &nbsp;&nbsp;Evento
-                        </span>
-                    </div>
-                    <!-- #4 -->
-                    <div class="share__type d-flex align-items-center">
-                      <div class="share__type__icon">
-                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                            <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z" fill="#FC9295"></path>
-                          </svg>
-                      </div>
-                      <span class="share__type__caption ">
-                        &nbsp;&nbsp;Escrever artigo
-                      </span>
-                  </div>
-                  </div>
-              </div>
-            </div>
+        <!-- <button class="btn  btn-editar-capa " id="editor-imagem" data-bs-toggle="dropdown">
+          <i class="fa fa-camera mr-2"></i>Editar foto de capa
+        </button> -->
 
-            <!-- POSTAGEM    =====================   POSTAGEM ==========================POSTAGEM======================= POSTAGEM -->
-
-            <div class="card card__postagem mt-4">
-                <div class="card-header postagem__header d-flex  align-items-center ">
-                    <div class="postagem__logo">
-                        <img src="./imgs/post_img.jpg" alt="">
-                    </div>
-                    <div class="postagem__info ml-3 flex-lg-grow-1 ">
-                        <!-- titulo -->
-                        <h6 class="postagem__titulo">JBS</h6>
-                        <!-- seguidores -->
-                        <div class="postagem__seguidores text-muted small">1.558.766 seguidores</div>
-                        <!-- data -->
-                        <p class="postagem__data"> 7 min . <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
-                                <path d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"></path>
-                              </svg>
-                        </span></p>
-                    </div>
-                    <span class="dots align-self-start ">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                            <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
-                          </svg>
-                    </span>
-                </div>
-                <!-- CORPO DA POSTAGEM -->
-                <div class="card-body">
-                    <!-- descriçao -->
-                    <p class="postagem__descricao">
-                        Os Sustainability-Linked Bonds (SLB) são importantes instrumentos para apoiar uma atividade econômica mais sustentável, inclusive para nós. Por meio da recente emissão externa de sustainability-linked bonds com juros atrelados ...
-                      </p>
-                      <button class="show__btn show__btn--more">... Leia mais</button>
-                      <p class="p-hidden postagem__descricao">
-                        Nós, da JBS, somos 250 mil colaboradores movidos pelo propósito de alimentar o mundo com o que há de melhor, levando excelência e inovação por meio das nossas marcas para muitos países. Somos a segunda maior companhia de alimentos do mundo e a primeira em proteína com opções que vão desde o café da manhã até o jantar, além de termos a maior linha de produtos plant based.
-                        Da origem até a mesa do consumidor, nosso cuidado vai além do processo produtivo e temos responsabilidade em nossas ações para que elas gerem impactos positivos para nossos colaboradores, fornecedores, clientes e, claro, para as milhões de famílias que confiam na qualidade dos nossos produtos.
-                       </p>
-                       <button class="show__btn show__btn--less">... mostrar menos</button>
-                    <!-- imagem -->
-                    <div class="postagem__capa"><img src="./imgs/post1.jpg" alt=""></div>
-                    <div class="postagem__feedback">
-                        <img src="./imgs/like_p.svg" alt=""> <span class="postagem__likes text-muted small">44</span>
-                    </div>
-                    <hr class="postagem__divisor">
-  <!--  ============================ R  E  A  Ç  Õ  E  S ================================= --> 
-                <div class="social__actions__bar">
-                  <a class="like__btn btn custom__btn custom__btn--transparent">
-
-                    <div class="face__sensor">
-                      <div class="face__icons">
-                        <!-- face -- icons  -->
-                        <div class="acao__icone mr-2">
-                          <svg class="acao" width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="like-creation-large" data-supported-dps="48x48">
-                              <g fill="none" fill-rule="evenodd">
-                                <path d="M25.39 22H10.13c-2 0-3.2 2.11-3.12 3.92a3.23 3.23 0 003.3 3h.57a2.75 2.75 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83 2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.61-6.09-7.84C23.8 9.83 23.71 9 22 9a2.77 2.77 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 7.08 3.51 7.25" fill="#1485BD" fill-rule="nonzero"/>
-                                <path d="M23.49 23H10.13c-2 0-3.21 1.19-3.13 3a3.22 3.22 0 003.31 3h.57a2.76 2.76 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83v.05a2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.6-6.09-7.84C23.8 9.87 23.71 9 22 9a2.65 2.65 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 8 3.51 8.21V23z" stroke="#004B7C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              </g>
-                            </svg>
-                      </div>
-                  
-                      <div class="acao__icone mr-2">
-                        <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="praise-creation-large" data-supported-dps="48x48">
-                            <g fill="none" fill-rule="evenodd">
-                              <path d="M39.33 30.67l-1.6-1.2s-.66-6.35-1.82-7.58c-2.09-2.2-3.42-5.42-4.3-8.46-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a34 34 0 002 6.54l-.65-.39-15.44-11.74c-1.15-.87-2.81-1.26-3.93.24s-.22 2.89.93 3.75l8 6 2.39 1.81-12.79-9.61c-1.15-.87-2.81-1.26-3.94.24s-.21 2.92.93 3.75l8 6 4.8 3.6-10.4-7.79c-1.15-.87-2.81-1.26-3.94.24s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.87-2.78-1.29-3.86.14-1.08 1.43-.29 3 .86 3.86l14.54 11a9.79 9.79 0 007.41 1.8c.81.59 2.4 1.8 2.4 1.8a27.51 27.51 0 005.59-5.8 41.5 41.5 0 004.59-7.76z" fill="#49992A" fill-rule="nonzero"/>
-                              <path d="M29.73 23.48l-2.41-1.81" fill="#93D870" fill-rule="nonzero"/>
-                              <path d="M39.21 31l.12-.28" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path d="M37.6 28.4c-.25-1.87-.41-7.47-1.27-8.38-2.09-2.21-3.84-3.55-4.72-6.59-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a43.76 43.76 0 002 6.92L12.81 11c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6 2.39 1.8-12.79-9.59c-1.15-.86-2.81-1.25-3.94.25s-.21 2.88.93 3.75l8 6 4.8 3.61L6.8 19c-1.15-.86-2.81-1.25-3.94.25s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.86-2.78-1.29-3.86.15s-.29 3 .86 3.85l14.53 10.68a9.79 9.79 0 007.41 1.8" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path d="M29.73 23.48l-2.41-1.81" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path d="M45.93 31.87l-1.6-1.2s-.66-6.36-1.82-7.58a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7c2.53 1.87 7.07 2.12 7 2.12.9.558 1.838 1.05 2.81 1.47A11.41 11.41 0 0042.93 41a17 17 0 003-9.13z" fill="#6DAE4F" fill-rule="nonzero"/>
-                              <path d="M36.33 24.67l-2.41-1.8" fill="#93D870" fill-rule="nonzero"/>
-                              <path d="M12 1.65l.79 3.52M23.2 5.95l-2.94 2.08M18.68 1l-2.15 5.6M45.77 31.88a7.52 7.52 0 01-1.62-2.66c-.18-.75-.23-1.53-.37-2.29-.22-1.17-.41-2.93-1.27-3.84a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7a9.56 9.56 0 004 1.75c.64.12 1.32.18 2.07.32a10 10 0 013.08 1 3 3 0 002.15.17 13.28 13.28 0 006.26-4.59 12.74 12.74 0 002.48-7 2.92 2.92 0 00-.2-1.65h0z" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </g>
-                          </svg>
-                    </div> 
+        <div class="dropdown editor-capa">
+          <button class="btn btn-secondary " type="button" id="dropdown-capa" data-toggle="dropdown" aria-expanded="true" >
+            <i class="fa fa-camera mr-2"></i>Editar foto de capa
+          </button>
+          <div class="dropdown-menu" >
+            <a class="dropdown-item" href="#">
+              <label for="upload-photo"><i class="fa fa-picture-o" ></i> Selecionar foto</label>
+                <input type="file"  name="aquivo" id="arquivo">
               
-                    <div class="acao__icone mr-2">
-                        <svg width="28" height="28" viewBox="0 4 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" id="support-creation-large" data-supported-dps="48x48">
-                            <path d="M14.889 32h-.44a.729.729 0 01-.25 0c-.79-.29-4.82-1.83-7.53-2.59a.86.86 0 01-.63-.73 2.4 2.4 0 01.37-1.77 1.41 1.41 0 011.19-.58c.238 0 .475.04.7.12.538.213 1.04.506 1.49.87l.19.15 1.25.87c.46.33.87.61 1.16.83l2.92 1.19c.39.18 2 .92 2 1.34 0 .42-1.86.37-2.25.38l-.17-.08z" fill="#9983B1"/>
-                            <path d="M44.197 44.52a74.559 74.559 0 01-11.84-1.23h-.21a65.995 65.995 0 01-8.77-1.82c-2.56-.77-5.08-1.77-7.52-2.73l-1.09-.43c-2.31-.9-4.19-1.66-5.9-2.39l-.64-.27a23.572 23.572 0 01-3-1.41c-1.33-.78-1.74-1.78-1.19-3v-.09A1.93 1.93 0 016.007 30h.11c.193-.015.387-.015.58 0 2.12.23 8.27 2.57 9.48 3l4 .14h.1l9 .31c-.7-.64-2.45-1.75-6.75-2.86-.82-.21-1.56-.45-1.73-1a2.38 2.38 0 01.78-2.54 3.21 3.21 0 011.88-.42c.768 0 1.534.09 2.28.27.46.12.83.24 1.19.35.934.32 1.9.538 2.88.65a30.6 30.6 0 014.64 1.1c5 1.36 6 3.87 6.59 5.38 0-.09 0 .08 0 0-.19-.62 0-.16.1-.39l.14-.2h.34c.143.01.287.01.43 0 .86 0 2.5-.09 2.51-.09a.85.85 0 01.85.63c1.71 6.23-.64 9.69-.74 9.83a.64.64 0 01-.48.33l.01.03z" fill="#BBA9D1"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.22 11.35a5 5 0 00-7.13-.09l-.09.09a5.24 5.24 0 000 7.34l7.79 7.9 7.8-7.9c2-2.038 2-5.302 0-7.34a5.06 5.06 0 00-3.61-1.53 5 5 0 00-3.6 1.53l-.57.58-.59-.58z" fill="#DF704D"/>
-                            <path clip-rule="evenodd" d="M45.147 34.32c.358.277 1.743 2.502 1.483 5.05-.26 2.55-1.87 4.89-2.28 5.291-.411.4-15.188-1.486-18.65-2.162-3.462-.676-20.15-8.073-20.793-8.454-.642-.381-.7-3.124 1.134-3.693 1.835-.569 5.855 2.149 9.526 2.749 3.67.6 10.2.944 12.681.944s-2.681-2.162-3.895-2.643c-1.214-.481-3.203-.875-3.616-2.162-.413-1.287.926-2.24 2.026-2.24.733 0 2.695.494 5.885 1.483 3.138 0 5.737.448 7.797 1.343a9.199 9.199 0 014.68 4.495c.342.724 3.663-.276 4.022 0z" stroke="#493D57" stroke-width="2"/>
-                            <path d="M6.838 30.17C5.906 28.144 7.055 27 8.416 27c1.362 0 2.4 1.483 4.367 2.826 1.312.896 3.61 2.187 6.895 3.875" stroke="#493D57" stroke-width="2"/>
-                            <path clip-rule="evenodd" d="M16.156 10.63a5.466 5.466 0 00-7.731.056c-2.132 2.15-2.171 5.635-.089 7.835L16.77 27l8.433-8.49a5.629 5.629 0 001.52-4.86 5.574 5.574 0 00-3.01-4.084A5.258 5.258 0 0021.292 9a5.454 5.454 0 00-3.88 1.653l-.643.611-.614-.634z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                    </div> 
-        
-                    <div class="acao__icone mr-2">
-                        <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="empathy-creation-large" data-supported-dps="48x48">
-                            <g fill="none" fill-rule="evenodd">
-                              <path d="M22.9 14.9a9.91 9.91 0 10-14 14L24 44l15.1-15.07a10 10 0 00-2.67-16 9.52 9.52 0 00-4.33-1 9.84 9.84 0 00-6.95 2.93L24 16l-1.1-1.1z" fill="#DF704D"/>
-                              <path d="M22.9 14.88a9.88 9.88 0 00-14 13.94L24 43.8l15.1-15A9.86 9.86 0 0036.43 13a9.52 9.52 0 00-4.33-1h0a9.83 9.83 0 00-6.95 2.92L24 16l-1.1-1.12z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </g>
-                          </svg>
-                    </div> 
-                  
-                    <div class="acao__icone mr-2">
-                        <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="interest-creation-large" data-supported-dps="48x48">
-                            <g fill="none" fill-rule="evenodd">
-                              <path d="M27 44h-6a2 2 0 01-2-2v-5h10v5a2 2 0 01-2 2z" fill="#C07800" fill-rule="nonzero"/>
-                              <path d="M21 37l8 .07a11.22 11.22 0 01.09-3.57 6.61 6.61 0 01.78-1.63 4.58 4.58 0 01.63-.69l.14-.12A11.74 11.74 0 0035 22.17c0-6.075-4.925-11-11-11s-11 4.925-11 11v.06a11.42 11.42 0 004.13 8.66 10.9 10.9 0 011.77 2.79 9.61 9.61 0 01.8 3.08l.3.24" fill="#F5BB5C" fill-rule="nonzero"/>
-                              <path d="M12 5.82l2.42 3.15M36 5.82l-2.42 3.15M24 2v4.77" stroke="#5D3B01" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path d="M27 44h-6a2.21 2.21 0 01-2-2.1V37h10v4.9a2.21 2.21 0 01-2 2.1h0z" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path d="M29 38c0-3.63.41-4.47.41-4.47a6.33 6.33 0 011.89-3 11.72 11.72 0 003.09-4.62c.42-1.189.64-2.44.65-3.7v-.06A11.09 11.09 0 0024 11h0c-6.121.05-11.044 5.049-11 11.17v.06c.01 1.26.23 2.511.65 3.7a11.72 11.72 0 003.09 4.62 6.33 6.33 0 011.89 3s.41.84.41 4.47" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </g>
-                          </svg>
-                    </div> 
-                  
-                    <div class="acao__icone mr-2">
-                        <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="maybe-creation-large" data-supported-dps="48x48">
-                            <g fill="none" fill-rule="evenodd">
-                              <circle fill="#DEB8DC" fill-rule="nonzero" cx="24.5" cy="24.5" r="16.5"/>
-                              <path d="M22.66 8.1A16.08 16.08 0 0124.5 8a16.5 16.5 0 11-12.16 5.35" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path d="M15 33.66l11.48-1.92a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14" fill="#DEB8DC" fill-rule="nonzero"/>
-                              <path d="M26.48 31.74a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14l10.27-1.69zM13 10a4.2 4.2 0 012.75-1.23 4.15 4.15 0 012.94.67M21 26h3" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              <circle fill="#523951" fill-rule="nonzero" cx="17" cy="19" r="2"/>
-                              <circle fill="#523951" fill-rule="nonzero" cx="29" cy="20" r="2"/>
-                              <path d="M28 14.29a4.18 4.18 0 013 0A4.18 4.18 0 0133.45 16" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </g>
-                          </svg>
-                    </div> 
-                        <!-- face --icosn end -->
-                      </div>
-
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                      <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
-                      </svg>
-                    Gostei
-                  </a>
-
-                  <button class="btn custom__btn custom__btn--transparent">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false" style="">
-                      <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z" style=""></path>
-                    </svg>
-                    Comentar
-                  </button>
-                  <button class="btn custom__btn custom__btn--transparent">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                      <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
-                      </svg>
-                    Compartilhar
-                  </button>
-                  <button class="btn custom__btn custom__btn--transparent">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                      <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
-                    </svg>
-                    Enviar
-                  </button>
-                </div>
-  <!--================== R  E  A  T  I  O  N   E  N  D  ===================================-->
-                </div>
-    </div>
-            
- <!--  POSTAGEM FIM           ============ POSTAGEM FIM  ============ POSTAGEM FIM =========== POSTAGEM FIM -->
-
- 
-    </div>
-        <!--   ======================  BARRA DA DEITA =========================== -->
-        <div class="d-md-none col-lg-3 d-lg-block barra barra__direita px-0">
-          <div class="card">
-              <div class="card__noticias__titulo d-flex justify-content-between align-items-center">
-                  <h6 class="px-3 pt-4">LinkedIn Notícias</h6>
-                  <span class="pt-3 pr-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
-                        <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"></path>
-                      </svg>
-                  </span>
-              </div>
-              <div class="card__noticias__body">
-                  <!-- inico -->
-                  <div class="accordion" id="noticiario">
-                    <div class="">
-                      <div class="card-body" id="primeiro__titulo">
-                        <div class="noticia ">
-                            <div class="d-flex">
-                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
-                                </div>
-                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
-                        </div>
-                        <!--  -->
-                        <div class="noticia ">
-                            <div class="d-flex">
-                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
-                                </div>
-                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
-                        </div>
-                        <!--  -->
-                        <div class="noticia ">
-                            <div class="d-flex">
-                                 <span class="mr-2">•</span><h6>Aprenda a progrmar agora</h6>
-                                </div>
-                                <p class="ml-3 text-muted small">Noticias mais lidas <span>•</span> 17.952</p>
-                        </div>
-                        <!-- noticias -->
-                        <h2 class="mb-0">
-                          <button class="mostrar__btn btn   text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <span>Exibir mais</span>
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
-                                <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
-                              </svg>
-                          </button>
-                        </h2>
-                      </div>
-                  
-                      <div id="collapseOne" class="collapse show" aria-labelledby="primeiro__titulo" data-parent="#noticiario">
-                        <div class="card-body">
-                          Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- fim -->
-              </div>
+              
+            </a>
+            <a class="dropdown-item" href="#"><i class="fa fa-upload" aria-hidden="true"></i> Upload foto</a>
+            <a class="dropdown-item" href="#"><i class="fa fa-arrows" aria-hidden="true"></i> Reposicionar</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fa fa-arrows" aria-hidden="true"></i> Remover</a>
           </div>
         </div>
+     
+        
+        
+      </div>
     </div>
+    <!-- BANNER PRINCIAL FIM -->
 
 
+
+
+      <!-- IMAGEM USUARIO  -->
+    <div class="profile ">    
+        <!-- imagem central -->
+        <img src="./ims/perfil.jpeg" width="170" height="170" class="c-img-round subir" id="profile-img">
     </div>
+      <!-- IMAGEM USAURIO FIM -->
+ 
 
 
 
+    
+      <!--  IDENTIFICÃO USUARIO -->
+      <div class="row">
+        <div class="col align-items-center  d-flex flex-column pb-3">
+          <h3 class="my-0 py-0 d-block">Elson Ellson</h3>
+          <p class="text-muted d-block my-0 py-0">ellsonmendesYT</p>
+          <a href="#">Editar</a>
+        </div>
+      </div>
+      <!-- IDENTIFICAÇAO USUARIO FIM -->
 
-    <script src="./jquery-3.5.1.slim.min.js" ></script>
-    <script src="bootstrap.bundle.js"></script>
-   <script>
 
+
+      <!-- BARRA DE ACOES -->
+      <div class="row stripe  w-80">
+        <div class="col-md-6  py-2 d-flex  justify-content-around">
+          <a href="#" class="align-self-center">Publicaçoes</a>
+          <a href="#" class=" align-self-center">Sobre</a>
+          <a href="#" class=" align-self-center">Amigos</a>
+          <a href="#" class=" align-self-center">Fotos</a>
+          <a href="#" class=" align-self-center">Mais</a>
+        </div>
+        <div class="col-md-6   py-2 justify-content-around d-flex ">
+          <button class="btn btn-info  azul-face"><i class="mr-1 fa fa-plus-circle  fa-lg" aria-hidden="true"></i>Adicionar à historia</button>
+          <button class="btn  gray "><i class="mr-1 fa fa-pencil  fa-lg " aria-hidden="true"></i>Editar Perfil</button>
+          <button class="btn gray   ">. . .</button>
+        </div>
+    </div>
+    <!-- BARRA DE ACOES FIM -->
+
+
+  </div> <!-- fim container-->
+ </div>
+</section> 
+  <!--  //////// HERO SECTION FIM /////////-->
+
+
+
+  <!-- AREA PREINCIPAL -->
+  <section class=" py-5 c-light mt-4 principal">
+      <div class="container ">
+        <div class="row justify-content-around">
+
+
+       <!-- //////////////////         COLUNA ESQUERDA         //////////////////// -->
+       <div class="col-lg-5  py-3 px-4">
+
+        <!-- cartao esquerda -->
+        <div class="card c-card"> 
+            <div class="card-body py-4 d-flex justify-content-around flex-column">
+                <h3 class="color-dark my-2">Apresentaçao</h3>
+                <p class="info"><i class="fa fa-briefcase mr-2 info" aria-hidden="true"></i> Trabalha na Empresa App</p>
+                <p class="info"><i class=" fa fa-graduation-cap mr-2 info" aria-hidden="true"></i> Estudou na Universidade</p>
+                <p class="info"><i class=" fa fa-graduation-cap mr-2 info" aria-hidden="true"></i> Estudou na Escola</p>
+                <p class="info"><i class=" fa-lg fa fa-home mr-2 info" aria-hidden="true"></i> Vive em Timon</p>
+                <p class="info"><i class=" fa-lg fa fa-map-marker mr-2 info" aria-hidden="true"></i> De Timon</p>
+                <p class="info"><i class="  fa fa-heart mr-2 info" aria-hidden="true"></i> Numa relação com Cristina Martins</p>
+                <p><i class="  fa fa-youtube mr-2 info" aria-hidden="true"></i><a href="https://www.youtube.com/c/ellsonmendesYT" target="__blank">ellsonmendesYT</a> </p>
+                <p><i class="  fa fa-linkedin mr-2 info" aria-hidden="true"></i><a href="linkedin.html" target="__blank">elsonmendesyt</a> </p>
+              
+                <button class="btn gray btn-block">Editar detalhes</button>
+                <button class="btn gray btn-block">Adicionar passatempos</button>
+                <button class="btn gray btn-block">Editar destaques</button>
+          </div>
+        </div>
+        <!-- cartao de amigos -->
+        <div class="card c-card card-grid-amigos">
+         <div class="card-header d-flex justify-content-between">
+           <div class="amigos">
+             <h5 class="card-title">Amigos</h5>
+             <p>250 amigos</p>
+           </div>
+           <a href="#" class="align-self-start">Ver todos os amigos</a>
+         </div>
+         <div class="card-body">
+           <!-- fila 1-->
+           <div class="row">
+             <div class="col d-flex justify-content-between">
+              
+               <!-- amigo 2 -->
+               <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <a href="https://www.facebook.com/cristiane.mends.7" target="_blank"><img src="./ims/amigos/cristiane.jpg" ></a>
+                  
+                </div>
+                <div class="card-footer">
+                  <p>Cristiane</p>
+                </div>
+              </div>
+              <!-- amigo -->
+              <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <a href="https://www.facebook.com/cristina.mendes.357622" target="_blank"> <img src="./ims/amigos/cristina-irma.jpg" ></a>
+                 
+                </div>
+                <div class="card-footer">
+                  <p>Cristina Irmã</p>
+                </div>
+              </div>
+               <!-- amigo 3 -->
+               <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <a href="https://www.facebook.com/anacristina.sousa.967806" target="_blank">
+                    <img src="./ims/amigos/namorada.jpg" >
+                  </a>
+                </div>
+                <div class="card-footer">
+                  <p>Cristina Namorada</p>
+                </div>
+              </div>
+             </div>
+           </div>
+           <!-- fila2 -->
+           <div class="row">
+            <div class="col d-flex justify-content-between">
+              <!-- amigo1 -->
+              <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <a href="https://www.facebook.com/michael.lesley.92" target="_blank"><img src="./ims/amigos/maikao.jpg" ></a>
+                  
+                </div>
+                <div class="card-footer">
+                  <p>Michael Lesley Filho</p>
+                </div>
+              </div>
+              <!-- amigo 2 -->
+              <div class="card card-amigo">
+               <div class="amigo-img-holder ">
+                 <a href="https://www.facebook.com/cleidiane.mendesbarbosa" target="_blank"><img src="./ims/amigos/cleidiane.jpg" ></a>
+                 
+               </div>
+               <div class="card-footer">
+                 <p>Cleidiane Irma</p>
+               </div>
+             </div>
+              <!-- amigo 3 -->
+              <div class="card card-amigo">
+               <div class="amigo-img-holder ">
+                 <a href="https://www.facebook.com/Romanowskinr" target="_blank"> <img src="./ims/amigos/nadia.jpg" ></a>
+                
+               </div>
+               <div class="card-footer">
+                 <p>Nádia</p>
+               </div>
+             </div>
+            </div>
+          </div>
+          <!-- fila 3 -->
+          <div class="row">
+            <div class="col d-flex justify-content-between">
+              <!-- amigo1 -->
+           
+              <!-- amigo 2 -->
+            
+              <!-- amigo 3 -->
+              <div class="card card-amigo">
+               <div class="amigo-img-holder ">
+                 <a href="https://www.facebook.com/wellington.mendes007" target="_blank">  <img src="./ims/amigos/wellington.jpg" ></a>
+               
+               </div>
+               <div class="card-footer">
+                 <p>Wellington Irmão</p>
+               </div>
+             </div>
+             <!-- AMIGOS PAIS -->
+              <!-- amigo1 -->
+              <div class="card card-amigo">
+                <div class="amigo-img-holder ">
+                  <a href="https://www.facebook.com/sebastiao.gomesbarbosa.3" target="_blank"> <img src="./ims/amigos/papis.jpg" ></a>
+                 
+                </div>
+                <div class="card-footer">
+                  <p>Bastião papis</p>
+                </div>
+              </div>
+              <!-- mamais -->
+              <div class="card card-amigo">
+               <div class="amigo-img-holder ">
+                 <a href="https://www.facebook.com/nevina.mends" target="_blank"><img src="./ims/amigos/mamis.jpg" ></a>
+                 
+               </div>
+               <div class="card-footer">
+                 <p>Maria das Neves mamis</p>
+               </div>
+             </div>
+            </div>
+          </div>
+         </div>
+        
+        </div>
+
+        <!-- cartao de amigos -->
+
+
+        <!-- cartao relacionanamento -->
+        <div class="card c-card grudar-topo">
+          <div class="card-body">
+            <div class="d-flex justify-content-around align-items-center">
+              <h3>Eventos da vida</h3>
+              <h5> <a href="#">Ver tudo</a></h5>
+            </div>
+           
+            <div class="card card-love col-8 ">
+              <div class="juntar">
+               <img src="./ims/elson.png" width="100" height="100" class="ele">
+               <img src="./ims/cristina.jpg" width="100" height="100" class="ela">
+              </div>
+              <div class="juntar-coracao">
+                <i class="fa fa-heart coracao" aria-hidden="true"></i>
+              </div>
+              <div class="data row mb-5">
+                  <div class="col-6 col-lg-10 mt-5 mx-4 mb-5">
+                  <h5>Numa relacão com Cristina Martins</h5>
+                  </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+       <!-- AREA RELACIONAMENTO FIM -->
+        </div>
+       <!-- //////////////  COLUNA ESQUERDA FIM ///////////////////// -->
+
+
+
+       <!-- ///////////  COLUNA DA DIREITA /////////////-->
+       <div class=" col-lg-6 py-3 px-lg-4">
+         <!-- cartao 1 -->
+         <div class="card c-card">
+           <div class="card-header">
+             <div class="media">
+               <img src="./ims/perfil.jpeg" width="40" height="40" class="mr-2 c-img-round-b0">
+               <!-- <input type="text" class="form-control c-search-round"> -->
+               <button class="gray btn-block c-search-round text-left">Em que está pensando?</button>
+             </div>
+           </div>
+           <div class="card-body py-0 d-md-flex justify-content-between">
+            <button class="btn vidro"><i class="fa fa-video-camera  info fa-lg text-danger mr-lg-2 " aria-hidden="true"></i>Video em direto</button>
+            <button class="btn vidro"><i class="fa fa-picture-o  info fa-lg  mr-lg-2 text-success" aria-hidden="true"></i>Foto/Video</button>
+            <button class="btn vidro"><i class="fa fa-flag-o  info fa-lg  mr-lg-2 text-info" aria-hidden="true"></i>Eventos</button>
+           </div>
+         </div>
+          <!-- cartao 1 fim  -->
+          <!-- cartao 2 -->
+          <div class="card c-card">
+            <div class="card-header">
+              <div class="media">
+               <h4 class="mr-2">Publicações</h4>
+               
+                 <button class="btn gray mr-2"> <i class="fa fa-sliders mr-1" aria-hidden="true"></i>Filtros</button>
+                 <button class="btn gray mr-2"><i class="fa fa-cog fa-lg mr-1" aria-hidden="true"></i>Gerir Publicações</button>
+               
+              </div>
+            </div>
+            <div class="card-body py-3 d-flex justify-content-around">
+             <a href="#"><i class="fa fa-bars mr-1" aria-hidden="true"></i> Vista em lista</a>
+             <a href="#" class="text-muted"><i class="fa fa-windows mr-1 text-muted" aria-hidden="true"></i> Vista em grelha</a>
+            </div>
+          </div>
+          <!-- cartao 2 fim  -->
+
+           <!-- POST1 -->
+          <div class="card c-card post ">
+            <div class="card-header">
+              <div class="media">
+                <img src="./ims/perfil.jpeg" width="40" height="40" class="mr-2 c-img-round-b0">
+                <!-- <input type="text" class="form-control c-search-round"> -->
+                <div class="autor-hora d-flex flex-column">
+                  <h4 class="mb-0">Elson Ellson</h4>
+                  <small>18 de março às 23:14</small>
+                </div>
+                <p class="ml-auto font-weight-bold">...</p>
+              </div>
+            </div>
+            <div class="card-body py-0 mx-0 px-0">
+             <div class="img-holder w-100">
+               <img src="./ims/posts/post1.jpeg"  class="img-fluid" >
+             </div>
+            </div>
+            <div class="card-footer post-footer mx-auto">
+              <div class="post-details">
+                <h5>Infatec - Soluções Tecnologias</h5>
+                <small class="text-muted">28 de janeiro de 2019 <i class="fa fa-globe" aria-hidden="true"></i></small>
+                <p>Mais uma semana começa e com ela infinitas possibilidades de fazer a diferença! </p>
+
+                <div class="hashtags d-flex">
+                  <a href="#" class="mr-1">#infatelsoluções</a>
+                  <a href="#" class="mr-1">#ti</a>
+                  <a href="#" class="mr-1">#gestãoeducacional</a>
+                </div>
+              </div>
+            </div>
+            <!-- pessoas que gostaram -->
+            <div class="  justify-content-between  align-items-center d-flex px-4 pt-4   ">
+              <div class="pessoas d-flex flex-row py-0">
+                <i class="fa fa-thumbs-o-up mr-2 like-indicator" aria-hidden="true"></i>
+                <p class="mr-1">Cristina</p>
+                <p class="mr-1">Guilherme</p>
+                <p class="mr-1">Michael</p>
+              </div>
+              <div class="cont-comentarios ">
+                <p class="" href="#">1 comentarios</p>
+              </div>
+            </div>
+            <div class="row pb-2 caixa-acoes d-flex justify-content-center ">
+                <div class="interacao d-flex justify-content-between px-4 ">
+                  <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-thumbs-o-up mr-2 fa-lg text-muted" aria-hidden="true"></i>Gosto</button>
+                  <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-commenting-o mr-2 fa-lg text-muted" aria-hidden="true"></i>Comentar</button>
+                  <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-share mr-2 fa-lg text-muted" aria-hidden="true"></i>Partilhar</button>
+                </div>
+            </div>
+            <!-- REACAO AUTOR -->
+            <div class="autor-reacao d-flex justify-content-between">
+              <div class="media ml-4 my-2">
+                <img src="./ims/perfil.jpeg" width="40" height="40" class="mr-2 c-img-round-b0">
+                <!-- <input type="text" class="form-control c-search-round" placeholder="      Escrever comentario"> -->
+                <div class="input-group mb-3  border border-0">
+                  <input type="text" class="form-control input-comentario" placeholder="   Escreva um comentario">
+                  <div class="input-group-append">
+                    <!-- <span class="input-group-text input-comentario2" >icone</span> -->
+                      <i class="fa fa-smile-o  input-group-text c-bg"></i>
+                      <i class="fa fa-camera text-muted fa-md  input-group-text c-bg"></i>
+                      <i class="fa fa-file-image-o text-muted   input-group-text c-bg"></i>
+                      <i class="fa fa-external-link text-muted   input-group-text c-bg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- POST1 FIM -->
+            <!-- POST2  -->
+            <div class="card c-card post ">
+              <div class="card-header">
+                <div class="media">
+                  <img src="./ims/perfil.jpeg" width="40" height="40" class="mr-2 c-img-round-b0">
+                  <!-- <input type="text" class="form-control c-search-round"> -->
+                  <div class="autor-hora d-flex flex-column">
+                    <h4 class="mb-0">Elson Ellson</h4>
+                    <small>18 de março às 23:14</small>
+                  </div>
+                  <p class="ml-auto font-weight-bold">...</p>
+                </div>
+              </div>
+              <div class="card-body py-0 mx-0 px-0">
+               <div class="img-holder w-100">
+                 <img src="./ims/posts/curso.jpg"  class="img-fluid" >
+               </div>
+              </div>
+              <div class="card-footer post-footer mx-auto">
+                <div class="post-details">
+                  <h5>SASS - CSS com super poderes</h5>
+                  <small class="text-muted">28 de janeiro de 2019 <i class="fa fa-globe" aria-hidden="true"></i></small>
+                  <p>Nesse video você vai aprender a configruar o compilador sass no vscode... </p>
   
+                  <div class="hashtags d-flex">
+                    <a href="#" class="mr-1">#ellsonmendesYT</a>
+                    <a href="#" class="mr-1">#html</a>
+                    <a href="#" class="mr-1">#desenvolvimentoweb</a>
+                  </div>
+                </div>
+              </div>
+              <!-- pessoas que gostaram -->
+              <div class="  justify-content-between  align-items-center d-flex px-4 pt-4   ">
+                <div class="pessoas d-flex flex-row py-0">
+                  <i class="fa fa-thumbs-o-up mr-2 like-indicator" aria-hidden="true"></i>
+                  <p class="mr-1">Nadia </p>
+                  <p class="mr-1">Cristina</p>
+                  <p class="mr-1">Whinderson</p>
+                </div>
+                <div class="cont-comentarios ">
+                  <p class="" href="#">1 comentarios</p>
+                </div>
+              </div>
+              <div class="row pb-2 caixa-acoes d-flex justify-content-center ">
+                  <div class="interacao d-flex justify-content-between px-4 ">
+                    <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-thumbs-o-up mr-2 fa-lg text-muted" aria-hidden="true"></i>Gosto</button>
+                    <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-commenting-o mr-2 fa-lg text-muted" aria-hidden="true"></i>Comentar</button>
+                    <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-share mr-2 fa-lg text-muted" aria-hidden="true"></i>Partilhar</button>
+                  </div>
+              </div>
+              <!-- REACAO AUTOR -->
+              <div class="autor-reacao d-flex justify-content-between">
+                <div class="media ml-4 my-2">
+                  <img src="./ims/perfil.jpeg" width="40" height="40" class="mr-2 c-img-round-b0">
+                  <!-- <input type="text" class="form-control c-search-round" placeholder="      Escrever comentario"> -->
+                  <div class="input-group mb-3  border border-0">
+                    <input type="text" class="form-control input-comentario" placeholder="   Escreva um comentario">
+                    <div class="input-group-append">
+                      <!-- <span class="input-group-text input-comentario2" >icone</span> -->
+                        <i class="fa fa-smile-o  input-group-text c-bg"></i>
+                        <i class="fa fa-camera text-muted fa-md  input-group-text c-bg"></i>
+                        <i class="fa fa-file-image-o text-muted   input-group-text c-bg"></i>
+                        <i class="fa fa-external-link text-muted   input-group-text c-bg"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            <!-- POST2 FIM  -->
 
-$( document ).ready(function() {
-   ///quando clicar no botao de mais, mostrar o resto de texto e esconde este botao
-   let $p,$showbtn,$showless;
-
-   $showless=$('.show__btn--less')
-    $showbtn =$('.show__btn--more');
-   $showless.css('display','none');
+            <!-- POST3 -->
+            <div class="card c-card post ">
+              <div class="card-header">
+                <div class="media">
+                  <img src="./ims/perfil.jpeg" width="40" height="40" class="mr-2 c-img-round-b0">
+                  <!-- <input type="text" class="form-control c-search-round"> -->
+                  <div class="autor-hora d-flex flex-column">
+                    <h4 class="mb-0">Elson Ellson</h4>
+                    <small>18 de março às 23:14</small>
+                  </div>
+                  <p class="ml-auto font-weight-bold">...</p>
+                </div>
+              </div>
+              <div class="card-body py-0 mx-0 px-0">
+               <div class="img-holder w-100">
+                 <img src="./ims/posts/namoradadeprogramador.jpg"  class="img-fluid" >
+               </div>
+              </div>
+              <div class="card-footer post-footer mx-auto">
+                <div class="post-details">
+                  <h5>Grupo Top das Galáxias - Dicas Tutoriais e Trollagem</h5>
+                  <small class="text-muted">9 de abril de 2021 <i class="fa fa-globe" aria-hidden="true"></i></small>
+                  <p>Programador vulgo Elson admite que antes de Cristina namorava seu Computador todos os dias </p>
   
+                  <div class="hashtags d-flex">
+                    <a href="#" class="mr-1">#ellsonmendesYT</a>
+                    <a href="#" class="mr-1">#html</a>
+                    <a href="#" class="mr-1">#desenvolvimentoweb</a>
+                  </div>
+                </div>
+              </div>
+              <!-- pessoas que gostaram -->
+              <div class="  justify-content-between  align-items-center d-flex px-4 pt-4   ">
+                <div class="pessoas d-flex flex-row py-0">
+                  <i class="fa fa-thumbs-o-up mr-2 like-indicator" aria-hidden="true"></i>
+                  <p class="mr-1">Bolsonaro</p>
+                  <p class="mr-1">Lula</p>
+                  <p class="mr-1">Michael</p>
+                </div>
+                <div class="cont-comentarios ">
+                  <p class="" href="#">1 comentarios</p>
+                </div>
+              </div>
+              <div class="row pb-2 caixa-acoes d-flex justify-content-center ">
+                  <div class="interacao d-flex justify-content-between px-4 ">
+                    <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-thumbs-o-up mr-2 fa-lg text-muted" aria-hidden="true"></i>Gosto</button>
+                    <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-commenting-o mr-2 fa-lg text-muted" aria-hidden="true"></i>Comentar</button>
+                    <button class="btn vidro font-weight-bold px-4 text-muted"><i class="fa fa-share mr-2 fa-lg text-muted" aria-hidden="true"></i>Partilhar</button>
+                  </div>
+              </div>
+              <!-- REACAO AUTOR -->
+              <div class="autor-reacao d-flex justify-content-between">
+                <div class="media ml-4 my-2">
+                  <img src="./ims/perfil.jpeg" width="40" height="40" class="mr-2 c-img-round-b0">
+                  <!-- <input type="text" class="form-control c-search-round" placeholder="      Escrever comentario"> -->
+                  <div class="input-group mb-3  border border-0">
+                    <input type="text" class="form-control input-comentario" placeholder="   Escreva um comentario">
+                    <div class="input-group-append">
+                      <!-- <span class="input-group-text input-comentario2" >icone</span> -->
+                        <i class="fa fa-smile-o  input-group-text c-bg"></i>
+                        <i class="fa fa-camera text-muted fa-md  input-group-text c-bg"></i>
+                        <i class="fa fa-file-image-o text-muted   input-group-text c-bg"></i>
+                        <i class="fa fa-external-link text-muted   input-group-text c-bg"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            <!-- POST3 FIM -->
+          </div>
+        <!-- //////////////  COLUNA DIREITA FIM /////////////-->
+       </div>
+      
+
+                                    <!-- DEIXE NOS COMENTARIOS O QUE ACHARAM!!! :) -->
+      
+       
+      
+
+        </div>
+      </div>
+    </section>
+      <!-- ///////////////////////////////////             RODAPÉ    ////////////////////// -->
+    <footer>
+      <div class="container">
+        <div class="row mx-auto pb-3">
+          <div class="col-md-6  fs-1">
+            <p> <a href="#">Privacidade</a> 
+              <a href="#">Termos</a> 
+              <a href="#">Publicação</a> 
+              <a href="#">AdChoices <img src="./ims/favs/outro1.png" alt=""></a> 
+              <a href="#">Cookies</a>
+              <a href="#">Mais</a></p>
+             <small>Facebook &copy; 2021</small>
+          </div>
+          <!-- coluna direita -->
+          <div class="col-md-6  ">
+            <div class="convite">
+              <h5>ME ENCONTRE</h5>
+            <a class="btn btn-danger text-white" target="_blank" href="https://www.youtube.com/channel/UCl5-W0A8tE3EucM7E_yS62A?sub_confirmation=1">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>  Curso HTML 
+            </a>
+            <a class="btn btn-secondary  mr-2" target="_blank" href="https://api.whatsapp.com/send?phone=5599988418596&text=Ol%C3%A1%20Elson%20..">
+              <i class="fa fa-whatsapp" aria-hidden="true"></i> Fale comigo
+            </a>
+            <a class="btn btn-secondary text-white mr-2"  href="linkedin.html">
+              <i class="fa fa-linkedin-square mr-2" aria-hidden="true"></i>LikedIn
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- PARTE PRINCIPAL FIM  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+
+     let barraPesquisa = document.querySelector('.pesquisa-topo');
+     
+     let anterior='';
+     barraPesquisa.addEventListener('click',function(){
+      anterior = barraPesquisa.getAttribute('placeholder');
+      let placeholder = barraPesquisa.setAttribute('placeholder','Pesquiar no facebook');
+     });
+
+     barraPesquisa.addEventListener('blur',function(){
+       
+      let placeholder = barraPesquisa.setAttribute('placeholder',anterior);
+     });
+
+
+    function ajustar(x) {
+  if (x.matches) { // If media query matches
+    let profileImg= document.querySelector("#profile-img");
+      profileImg.setAttribute('width','150');
+      profileImg.setAttribute('height','150');
+      console.log(profileImg);
+  } else {
+    let profileImg= document.querySelector("#profile-img");
+      profileImg.setAttribute('width','170');
+      profileImg.setAttribute('height','170');
+      console.log(profileImg);
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+ajustar(x) // Call listener function at run time
+x.addListener(ajustar)
+
+    </script>
   
-    $showbtn.on('click', function(){
-       $p =$('.p-hidden')
-       $p.toggleClass('p-hidden');
-      $(this).css('display','none');
-      $showless.css('display','block')
-    })
-
-
-    $('.show__btn--less').on('click', function(){
-      $p.addClass('p-hidden');
-      $showbtn.css('display','block');
-      $(this).css('display','none');
-    })
-
-
-});
-
-
-   </script>
-
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-<div class="postagem__barra_reacao position-relative">
-                        <div class="menu__flutuante"> 
-
-                            <div class="acao__icone mr-2">
-                                <svg class="acao" width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="like-creation-large" data-supported-dps="48x48">
-                                    <g fill="none" fill-rule="evenodd">
-                                      <path d="M25.39 22H10.13c-2 0-3.2 2.11-3.12 3.92a3.23 3.23 0 003.3 3h.57a2.75 2.75 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83 2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.61-6.09-7.84C23.8 9.83 23.71 9 22 9a2.77 2.77 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 7.08 3.51 7.25" fill="#1485BD" fill-rule="nonzero"/>
-                                      <path d="M23.49 23H10.13c-2 0-3.21 1.19-3.13 3a3.22 3.22 0 003.31 3h.57a2.76 2.76 0 00-2.69 2.84 2.84 2.84 0 002.62 2.83v.05a2.83 2.83 0 001.18 5 2.89 2.89 0 00-.29 2 3 3 0 003 2.24h8.18a13.06 13.06 0 003.17-.41l5.13-1.5c.3-.09 4.74 0 6.74 0 3.57-.14 4.53-16.52 0-16.52 0 0-1.65.06-2 0-.16 0-.52-.68-1.41-1.64l-.08-.1c-1.3-1.41-2.78-3.23-3.82-4.26-2.53-2.48-4.63-4.6-6.09-7.84C23.8 9.87 23.71 9 22 9a2.65 2.65 0 00-2.38 2.9c.071.956.192 1.907.36 2.85.63 3.38 3.43 8 3.51 8.21V23z" stroke="#004B7C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </g>
-                                  </svg>
-                            </div>
-                        
-                            <div class="acao__icone mr-2">
-                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="praise-creation-large" data-supported-dps="48x48">
-                                  <g fill="none" fill-rule="evenodd">
-                                    <path d="M39.33 30.67l-1.6-1.2s-.66-6.35-1.82-7.58c-2.09-2.2-3.42-5.42-4.3-8.46-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a34 34 0 002 6.54l-.65-.39-15.44-11.74c-1.15-.87-2.81-1.26-3.93.24s-.22 2.89.93 3.75l8 6 2.39 1.81-12.79-9.61c-1.15-.87-2.81-1.26-3.94.24s-.21 2.92.93 3.75l8 6 4.8 3.6-10.4-7.79c-1.15-.87-2.81-1.26-3.94.24s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.87-2.78-1.29-3.86.14-1.08 1.43-.29 3 .86 3.86l14.54 11a9.79 9.79 0 007.41 1.8c.81.59 2.4 1.8 2.4 1.8a27.51 27.51 0 005.59-5.8 41.5 41.5 0 004.59-7.76z" fill="#49992A" fill-rule="nonzero"/>
-                                    <path d="M29.73 23.48l-2.41-1.81" fill="#93D870" fill-rule="nonzero"/>
-                                    <path d="M39.21 31l.12-.28" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M37.6 28.4c-.25-1.87-.41-7.47-1.27-8.38-2.09-2.21-3.84-3.55-4.72-6.59-.55-1.88-.94-2.55-2.63-2.58a2.57 2.57 0 00-2.31 2.84c.026.854.103 1.705.23 2.55a43.76 43.76 0 002 6.92L12.81 11c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6 2.39 1.8-12.79-9.59c-1.15-.86-2.81-1.25-3.94.25s-.21 2.88.93 3.75l8 6 4.8 3.61L6.8 19c-1.15-.86-2.81-1.25-3.94.25s-.21 2.89.94 3.75l8 6 4 3-8-6c-1.15-.86-2.78-1.29-3.86.15s-.29 3 .86 3.85l14.53 10.68a9.79 9.79 0 007.41 1.8" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M29.73 23.48l-2.41-1.81" stroke="#43722B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M45.93 31.87l-1.6-1.2s-.66-6.36-1.82-7.58a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7c2.53 1.87 7.07 2.12 7 2.12.9.558 1.838 1.05 2.81 1.47A11.41 11.41 0 0042.93 41a17 17 0 003-9.13z" fill="#6DAE4F" fill-rule="nonzero"/>
-                                    <path d="M36.33 24.67l-2.41-1.8" fill="#93D870" fill-rule="nonzero"/>
-                                    <path d="M12 1.65l.79 3.52M23.2 5.95l-2.94 2.08M18.68 1l-2.15 5.6M45.77 31.88a7.52 7.52 0 01-1.62-2.66c-.18-.75-.23-1.53-.37-2.29-.22-1.17-.41-2.93-1.27-3.84a20.9 20.9 0 01-4.3-8.46c-.55-1.88-.94-2.55-2.63-2.58a2.56 2.56 0 00-2.31 2.83c.026.854.103 1.705.23 2.55.63 3.3 1.31 6 1.39 6.16l-15.24-11.4c-1.15-.87-2.81-1.26-3.94.24s-.22 2.89.93 3.75l8 6L27 24l-12.76-9.62c-1.15-.86-2.81-1.25-3.93.25s-.22 2.88.93 3.75l8 6L24 28l-10.36-7.82c-1.15-.87-2.82-1.25-3.94.24s-.22 2.89.93 3.76l8 6 4 3-8-6c-1.15-.86-2.79-1.29-3.87.15s-.29 3 .86 3.85l14.31 10.7a9.56 9.56 0 004 1.75c.64.12 1.32.18 2.07.32a10 10 0 013.08 1 3 3 0 002.15.17 13.28 13.28 0 006.26-4.59 12.74 12.74 0 002.48-7 2.92 2.92 0 00-.2-1.65h0z" stroke="#165209" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                  </g>
-                                </svg>
-                          </div> 
-                     
-                          <div class="acao__icone mr-2">
-                              <svg width="28" height="28" viewBox="0 4 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" id="support-creation-large" data-supported-dps="48x48">
-                                  <path d="M14.889 32h-.44a.729.729 0 01-.25 0c-.79-.29-4.82-1.83-7.53-2.59a.86.86 0 01-.63-.73 2.4 2.4 0 01.37-1.77 1.41 1.41 0 011.19-.58c.238 0 .475.04.7.12.538.213 1.04.506 1.49.87l.19.15 1.25.87c.46.33.87.61 1.16.83l2.92 1.19c.39.18 2 .92 2 1.34 0 .42-1.86.37-2.25.38l-.17-.08z" fill="#9983B1"/>
-                                  <path d="M44.197 44.52a74.559 74.559 0 01-11.84-1.23h-.21a65.995 65.995 0 01-8.77-1.82c-2.56-.77-5.08-1.77-7.52-2.73l-1.09-.43c-2.31-.9-4.19-1.66-5.9-2.39l-.64-.27a23.572 23.572 0 01-3-1.41c-1.33-.78-1.74-1.78-1.19-3v-.09A1.93 1.93 0 016.007 30h.11c.193-.015.387-.015.58 0 2.12.23 8.27 2.57 9.48 3l4 .14h.1l9 .31c-.7-.64-2.45-1.75-6.75-2.86-.82-.21-1.56-.45-1.73-1a2.38 2.38 0 01.78-2.54 3.21 3.21 0 011.88-.42c.768 0 1.534.09 2.28.27.46.12.83.24 1.19.35.934.32 1.9.538 2.88.65a30.6 30.6 0 014.64 1.1c5 1.36 6 3.87 6.59 5.38 0-.09 0 .08 0 0-.19-.62 0-.16.1-.39l.14-.2h.34c.143.01.287.01.43 0 .86 0 2.5-.09 2.51-.09a.85.85 0 01.85.63c1.71 6.23-.64 9.69-.74 9.83a.64.64 0 01-.48.33l.01.03z" fill="#BBA9D1"/>
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.22 11.35a5 5 0 00-7.13-.09l-.09.09a5.24 5.24 0 000 7.34l7.79 7.9 7.8-7.9c2-2.038 2-5.302 0-7.34a5.06 5.06 0 00-3.61-1.53 5 5 0 00-3.6 1.53l-.57.58-.59-.58z" fill="#DF704D"/>
-                                  <path clip-rule="evenodd" d="M45.147 34.32c.358.277 1.743 2.502 1.483 5.05-.26 2.55-1.87 4.89-2.28 5.291-.411.4-15.188-1.486-18.65-2.162-3.462-.676-20.15-8.073-20.793-8.454-.642-.381-.7-3.124 1.134-3.693 1.835-.569 5.855 2.149 9.526 2.749 3.67.6 10.2.944 12.681.944s-2.681-2.162-3.895-2.643c-1.214-.481-3.203-.875-3.616-2.162-.413-1.287.926-2.24 2.026-2.24.733 0 2.695.494 5.885 1.483 3.138 0 5.737.448 7.797 1.343a9.199 9.199 0 014.68 4.495c.342.724 3.663-.276 4.022 0z" stroke="#493D57" stroke-width="2"/>
-                                  <path d="M6.838 30.17C5.906 28.144 7.055 27 8.416 27c1.362 0 2.4 1.483 4.367 2.826 1.312.896 3.61 2.187 6.895 3.875" stroke="#493D57" stroke-width="2"/>
-                                  <path clip-rule="evenodd" d="M16.156 10.63a5.466 5.466 0 00-7.731.056c-2.132 2.15-2.171 5.635-.089 7.835L16.77 27l8.433-8.49a5.629 5.629 0 001.52-4.86 5.574 5.574 0 00-3.01-4.084A5.258 5.258 0 0021.292 9a5.454 5.454 0 00-3.88 1.653l-.643.611-.614-.634z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                          </div> 
-                      
-
-
-                          <div class="acao__icone mr-2">
-                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="empathy-creation-large" data-supported-dps="48x48">
-                                  <g fill="none" fill-rule="evenodd">
-                                    <path d="M22.9 14.9a9.91 9.91 0 10-14 14L24 44l15.1-15.07a10 10 0 00-2.67-16 9.52 9.52 0 00-4.33-1 9.84 9.84 0 00-6.95 2.93L24 16l-1.1-1.1z" fill="#DF704D"/>
-                                    <path d="M22.9 14.88a9.88 9.88 0 00-14 13.94L24 43.8l15.1-15A9.86 9.86 0 0036.43 13a9.52 9.52 0 00-4.33-1h0a9.83 9.83 0 00-6.95 2.92L24 16l-1.1-1.12z" stroke="#77280C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                  </g>
-                                </svg>
-                          </div> 
-                        
-
-
-
-                          <div class="acao__icone mr-2">
-                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="interest-creation-large" data-supported-dps="48x48">
-                                  <g fill="none" fill-rule="evenodd">
-                                    <path d="M27 44h-6a2 2 0 01-2-2v-5h10v5a2 2 0 01-2 2z" fill="#C07800" fill-rule="nonzero"/>
-                                    <path d="M21 37l8 .07a11.22 11.22 0 01.09-3.57 6.61 6.61 0 01.78-1.63 4.58 4.58 0 01.63-.69l.14-.12A11.74 11.74 0 0035 22.17c0-6.075-4.925-11-11-11s-11 4.925-11 11v.06a11.42 11.42 0 004.13 8.66 10.9 10.9 0 011.77 2.79 9.61 9.61 0 01.8 3.08l.3.24" fill="#F5BB5C" fill-rule="nonzero"/>
-                                    <path d="M12 5.82l2.42 3.15M36 5.82l-2.42 3.15M24 2v4.77" stroke="#5D3B01" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M27 44h-6a2.21 2.21 0 01-2-2.1V37h10v4.9a2.21 2.21 0 01-2 2.1h0z" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M29 38c0-3.63.41-4.47.41-4.47a6.33 6.33 0 011.89-3 11.72 11.72 0 003.09-4.62c.42-1.189.64-2.44.65-3.7v-.06A11.09 11.09 0 0024 11h0c-6.121.05-11.044 5.049-11 11.17v.06c.01 1.26.23 2.511.65 3.7a11.72 11.72 0 003.09 4.62 6.33 6.33 0 011.89 3s.41.84.41 4.47" stroke="#5D3B01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                  </g>
-                                </svg>
-                          </div> 
-                         
-                          <div class="acao__icone mr-2">
-                              <svg width="28" height="28" viewBox="0 4 48 48" xmlns="http://www.w3.org/2000/svg" id="maybe-creation-large" data-supported-dps="48x48">
-                                  <g fill="none" fill-rule="evenodd">
-                                    <circle fill="#DEB8DC" fill-rule="nonzero" cx="24.5" cy="24.5" r="16.5"/>
-                                    <path d="M22.66 8.1A16.08 16.08 0 0124.5 8a16.5 16.5 0 11-12.16 5.35" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M15 33.66l11.48-1.92a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14" fill="#DEB8DC" fill-rule="nonzero"/>
-                                    <path d="M26.48 31.74a1.89 1.89 0 012.2 1.58 2 2 0 01-1.56 2.18l-4.81.81a1.56 1.56 0 011.79 1.33 1.63 1.63 0 01-1.22 1.84c.446.234.757.663.84 1.16a1.68 1.68 0 01-1.05 1.82c.25.317.368.718.33 1.12a1.74 1.74 0 01-1.5 1.54l-.56.12a43.48 43.48 0 01-4.38.72 27.33 27.33 0 01-5-.39 3.29 3.29 0 01-2.43-2.15c-1.09-2.27-1.69-6.56-.35-7.8 1.34-1.24 1.11-.93 1.75-2.4.64-1.47 1.31-3.16 1.82-4.6.51-1.44.71-2.09 1.66-2.44a1.94 1.94 0 012.34 1.11 8 8 0 01-.14 3c-.24 2-.25 2.46 0 3.14l10.27-1.69zM13 10a4.2 4.2 0 012.75-1.23 4.15 4.15 0 012.94.67M21 26h3" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <circle fill="#523951" fill-rule="nonzero" cx="17" cy="19" r="2"/>
-                                    <circle fill="#523951" fill-rule="nonzero" cx="29" cy="20" r="2"/>
-                                    <path d="M28 14.29a4.18 4.18 0 013 0A4.18 4.18 0 0133.45 16" stroke="#523951" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                  </g>
-                                </svg>
-                          </div> 
-                      </div>
-
-                      
-                      <div class="postagem__barra__acoes">
-                          <button class="botao botao__gostar">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                              <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
-                              </svg>
-                              <span>Gostei</span>
-                          </button>
-                          <button class="botao">
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                                  <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
-                                  </svg>
-                                  <span>Comentar</span>
-                          </button>
-                          <button class="botao">
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                                  <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
-                                  </svg>
-                                  <span>Compartilhar</span>
-                          </button>
-                          <button class="botao">
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-                                  <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
-                                  </svg>
-                                  <span>Enviar</span>
-                          </button>
-                      </div>
-                  </div>
-                
-
- -->
-
-
-
-
-
-
-
-
-
-<!-- 
-
-               <div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
-                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
-                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
-                  </svg>
-            </div>
-
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
-                    <path d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"></path>
-                  </svg>
-            </div>
- -->
