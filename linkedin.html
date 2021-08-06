@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap.css" >
-     <link rel="stylesheet" href="linkedin.css">
+    <link rel="stylesheet" href="./src/bootstrap.css" >
+     <link rel="stylesheet" href="./src/linkedin.css">
      <link rel="icon" href="./ims/favs/favicon.ico">
     <title>ellsonmendestYT</title>
   </head>
@@ -173,10 +173,11 @@
 
     <div class="container">
 
-    <div class="row">
+      <div class="row">
          <!--   ======================  BARRA DA ESQUERDA =========================== -->
         <div class="col-md-4 col-lg-3 barra barra__esquerda">
-         <div class="card">
+          <!-- cartao perfil -->
+         <div class="card mb-3">
              <div class="card-header card__header"></div>
             
                 <ul class="list-group list-group-flush">
@@ -219,8 +220,36 @@
                   </ul>
              
          </div>
+         <!-- cartao recentes -->
+         <div class="card ">
+          <!--acordion ini  -->
+          <div class="accordion" id="recentes">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button id="recentes__trigger__btn" class="btn  btn-block d-flex justify-content-between align-items-center acordion__toggler" type="button" data-toggle="collapse" data-target="#um" aria-expanded="true" aria-controls="collapseOne">
+                    <span>recentes</span>
+                    <svg id="recentes__target__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"   width="16" height="16" focusable="false">
+                      <path class="toggle__up__icon" d="M15 11L8 6.39 1 11V8.61L8 4l7 4.61z"></path>
+                    </svg>
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="um" class="collapse show" aria-labelledby="headingOne" data-parent="#recentes">
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                </div>
+              </div>
+            </div>
+         
+        
+          </div>
+        
+          <!-- acordion end -->
+          </div>         
         </div>
-        <!--     ======================= BARRA CENTRAL  ============================== -->
+        <!--    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX BARRA CENTRAL  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
         <div class="col-md-8 col-lg-6 barra barra__feed">
             <!-- xxx compartilhamento xx -->
             <div class="card card__share">
@@ -582,10 +611,11 @@
                 </div>
                     <!--================== R  E  A  T  I  O  N   E  N  D  ===================================-->
             </div>
-      </div>
-  <!--  POSTAGEM #2 FIM           ============ POSTAGEM FIM  ============ POSTAGEM FIM ===================== POSTAGEM FIM -->
-    </div>
-        <!--   ======================  BARRA DA DEITA =========================== -->
+         </div>
+        <!--  POSTAGEM #2 FIM           ============ POSTAGEM FIM  ============ POSTAGEM FIM ===================== POSTAGEM FIM -->
+     </div>
+
+        <!--   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX PAINEL  DIREITA  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
         <div class="d-md-none col-lg-3 d-lg-block barra barra__direita px-0">
           <div class="card">
               <div class="card__noticias__titulo d-flex justify-content-between align-items-center">
@@ -659,8 +689,8 @@
 
 
 
-    <script src="./jquery-3.5.1.slim.min.js" ></script>
-    <script src="bootstrap.bundle.js"></script>
+    <script src="./src/jquery-3.5.1.slim.min.js" ></script>
+    <script src="./src/bootstrap.bundle.js"></script>
    <script>
 
   
@@ -687,6 +717,17 @@ $( document ).ready(function() {
       $showbtn.css('display','block');
       $(this).css('display','none');
     })
+
+
+    // girar ao clicar
+
+
+
+    $('#recentes__trigger__btn').click(function(){
+		// $('#roteste').css('transform', 'scale(1,-1) ');
+		$('#recentes__target__icon').toggleClass('rotate');
+});
+
 
 
 });

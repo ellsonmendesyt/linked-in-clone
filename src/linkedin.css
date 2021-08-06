@@ -324,6 +324,60 @@ PARAGRAFO ENSCONDIDO
 
 
 
+/* 
+ CARTAO DE RECENTES LADO ESQUERDO
+*/
+
+.acordion__toggler{
+    box-shadow: none;
+}
+.acordion__toggler:focus{
+    box-shadow: none;
+}
+
+
+.acordion__toggler:hover .toggle__up__icon{
+    display: block;
+}
+
+.toggle__up__icon{
+    transform-origin: center; 
+}
+
+.flip{transform:  scale(1, -1);}
+
+
+.toggle__up__icon{
+    /* stroke:red; */
+    /* fill: red; */
+    /* display: none; */
+}
+
+.rotate{
+    transition: all .4s ease;
+    /* transform: scale(-1,-1); */
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
