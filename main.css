@@ -217,15 +217,124 @@ POSTAGENS
     background-color: rgba(0,0,0,.05);
 }
 
-/* 
+/*========================== 
 REAÇÕES
+============================*/
+
+.social__actions__bar{
+ /* border: 1px solid orange; */
+ position: relative;
+}
+
+.custom__btn{
+    line-height: 28px;
+    font-family: 'Roboto';
+    transition: all .4s ease;
+    font-size: .9rem;
+    padding:  5px;
+}
+
+
+@media (max-width:500px){
+    .custom__btn{
+        font-size: .7rem;
+
+    }
+}
+
+.custom__btn--transparent:hover{
+  background-color: #ebebeb;
+}
+
+/*===================== 
+ SENSOR DO LIKE
+======================*/
+
+.face__sensor{
+    height: 60px;
+    /* outline: 1px solid red; */
+    position: absolute;
+    top:-50px;
+    left: -30px;
+    display: none;
+}
+
+
+.like__btn:hover 
+
+.face__sensor{display: block;}
+
+
+
+
+
+
+.face__icons{
+    display: flex;
+    justify-content: stretch;
+
+
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:#fff;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 0 1px 2px rgba(0,0,0,.3);
+}
+
+.acao__icone{
+    /* background-color: teal; */
+    transition: all .3s ease;  
+
+}
+
+
+.show__btn{
+    border:none;
+    background-color: transparent;
+    font-size: .8rem;
+    font-weight:500;
+
+
+    /* outline: 1px solid blue; */
+    margin-bottom: 10px;
+    margin-left: 70%;
+    
+    left: 20px;
+}
+
+.show__btn:hover{
+    color:dodgerblue;
+}
+
+
+.acao__icone:hover{
+    transform: translateY(-10px);
+}
+
+
+/* 
+PARAGRAFO ENSCONDIDO
 */
 
+.p-hidden{
+    display:none;
+}
 
+
+
+
+
+
+
+
+
+
+
+/*
 .menu__flutuante{
     background-color: #fff;
     display: flex;
-    /* width: 200px; */
+
     border: 1px solid rgb(226, 221, 221);
     border-radius: 20px;
     padding: 3px 14px;
@@ -280,3 +389,4 @@ REAÇÕES
 }
 
 
+*/
