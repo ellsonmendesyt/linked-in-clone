@@ -106,7 +106,8 @@ svg{
 
 /* CARTAO */
 .card__header{
-    background: url('./imgs/bg.jpg');
+    /* background: url('./imgs/bg.jpg'); */
+    background:url('../imgs/bg.jpg');
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,8 +160,8 @@ svg{
     border-radius: 5px;
 
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
 }
 
 .share__type:hover{
@@ -347,11 +348,7 @@ PARAGRAFO ENSCONDIDO
 .flip{transform:  scale(1, -1);}
 
 
-.toggle__up__icon{
-    /* stroke:red; */
-    /* fill: red; */
-    /* display: none; */
-}
+
 
 .rotate{
     transition: all .4s ease;
@@ -359,13 +356,38 @@ PARAGRAFO ENSCONDIDO
     transform: rotate(180deg);
 }
 
+.show__more__btn{color:blue}
+.show__more__btn:focus{
+    box-shadow: none;
+    outline: none;
+    color: blue;
+
+}
+
+
+
+#recentes{
+    position: sticky;
+    top: 120px;
+}
+
+
+.recentes__topico{
+    font-size: .8rem;
+    color: #555;
+    font-weight: 600;
+    /* margin-left: 20px; */
+}
 
 
 
 
 
 
-
+.gruda__no__topo{
+    position:sticky;
+    top: 65px;
+}
 
 
 

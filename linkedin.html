@@ -14,7 +14,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-light bg-light justify-content-between ">
+    <nav class="navbar navbar-light bg-light justify-content-between  fixed-top">
         <!-- LOGO -->
     <div class="container">
         <ul class="nav">
@@ -171,7 +171,7 @@
       </nav>
       <!-- BARRA DE NAVEGAÇÃO -->
 
-    <div class="container">
+    <div class="container mt-5">
 
       <div class="row">
          <!--   ======================  BARRA DA ESQUERDA =========================== -->
@@ -182,7 +182,7 @@
             
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item card__nome_cargo">
-                        <h6 class="text-center mt-5 ">Elson Mendes</h6>
+                        <h6 class="text-center mt-1 ">Elson Mendes</h6>
                         <p class="cargo text-muted text-center mb-0">Desenvolvedor web front end</p>
                     </li>
                     <li class="list-group-item ">
@@ -221,11 +221,11 @@
              
          </div>
          <!-- cartao recentes -->
-         <div class="card ">
+         <div class="card  gruda__no__topo">
           <!--acordion ini  -->
-          <div class="accordion" id="recentes">
-            <div class="card">
-              <div class="card-header" id="headingOne">
+          <div class="accordion " id="recentes">
+            <div class="card ">
+              <div class="" id="recentes__pai">
                 <h2 class="mb-0">
                   <button id="recentes__trigger__btn" class="btn  btn-block d-flex justify-content-between align-items-center acordion__toggler" type="button" data-toggle="collapse" data-target="#um" aria-expanded="true" aria-controls="collapseOne">
                     <span>recentes</span>
@@ -233,13 +233,49 @@
                       <path class="toggle__up__icon" d="M15 11L8 6.39 1 11V8.61L8 4l7 4.61z"></path>
                     </svg>
                   </button>
+                  <!-- #dailyui -->
+
                 </h2>
               </div>
           
-              <div id="um" class="collapse show" aria-labelledby="headingOne" data-parent="#recentes">
+              <div id="um" class="collapse show" aria-labelledby="recentes__pai" data-parent="#recentes">
                 <div class="card-body">
-                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                  <p class="recentes__topico">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                      <path d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z"></path>
+                    </svg>
+                    <span>dailyui</span>
+                  </p>
+                  <p class="recentes__topico">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                      <path d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z"></path>
+                    </svg>
+                    <span>ellsonmendestYT</span>
+                  </p>
+                  <p class="recentes__topico">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                      <path d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z"></path>
+                    </svg>
+                    <span>codeLoop - React / Native</span>
+                  </p>
+                  <p class="recentes__topico">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                      <path d="M2 2v9a3 3 0 003 3h6a3 3 0 003-3V2zm8.5 1.5a1 1 0 11-1 1 1 1 0 011-1zm-5 0a1 1 0 11-1 1 1 1 0 011-1zM12 11a1 1 0 01-1 1H5a1 1 0 01-1-1V7h8z"></path>
+                    </svg>
+                    <span>Top das Galaxias html-css-js-react</span>
+                  </p>
+                  <p class="recentes__topico"><a href="https://www.youtube.com/c/ellsonmendesyt" target="_blank"># Aprenda já Html css javascript</a></p>
+                  <p class="recentes__topico"><a href="https://www.youtube.com/channel/UCTmHRlztq3RaOeQgd3osO3w" target="_blank"># Aprenda já React Native</a></p>
                 </div>
+              </div>
+
+              <div class="recentes__visivel px-3">
+                <p class="recentes__topico">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                    <path d="M6.65 11h2l-.33 3h2l.33-3H14V9h-3.13l.26-2H14V5h-2.65l.33-3h-2l-.33 3h-2l.33-3h-2l-.33 3H2v2h3.13l-.26 2H2v2h2.65l-.33 3h2zm.48-4h2l-.26 2h-2z"></path>
+                  </svg>
+                  <span>Estudio Cristina Martins</span>
+                </p>
               </div>
             </div>
          
@@ -337,7 +373,7 @@
                 <!-- CORPO DA POSTAGEM -->
                       <div class="card-body">
                           <!-- descriçao -->
-                          <p class="postagem__descricao">
+                          <!-- <p class="postagem__descricao">
                               Os Sustainability-Linked Bonds (SLB) são importantes instrumentos para apoiar uma atividade econômica mais sustentável, inclusive para nós. Por meio da recente emissão externa de sustainability-linked bonds com juros atrelados ...
                             </p>
                             <button class="show__btn show__btn--more">... Leia mais</button>
@@ -345,8 +381,23 @@
                               Nós, da JBS, somos 250 mil colaboradores movidos pelo propósito de alimentar o mundo com o que há de melhor, levando excelência e inovação por meio das nossas marcas para muitos países. Somos a segunda maior companhia de alimentos do mundo e a primeira em proteína com opções que vão desde o café da manhã até o jantar, além de termos a maior linha de produtos plant based.
                               Da origem até a mesa do consumidor, nosso cuidado vai além do processo produtivo e temos responsabilidade em nossas ações para que elas gerem impactos positivos para nossos colaboradores, fornecedores, clientes e, claro, para as milhões de famílias que confiam na qualidade dos nossos produtos.
                             </p>
-                            <button class="show__btn show__btn--less">... mostrar menos</button>
+                            <button class="show__btn show__btn--less">... mostrar menos</button> -->
                           <!-- imagem -->
+
+                        <p>
+                          <p>Os Sustainability-Linked Bonds (SLB) são importantes instrumentos para apoiar uma atividade econômica mais sustentável, inclusive para nós.
+                            Por meio da recente emissão externa de sustainability-linked bonds com juros atrelados ...</p>
+                          <button class="btn  show__more__btn" type="button" data-toggle="collapse" data-target="#post1" aria-expanded="false" aria-controls="collapseExample">
+                            mostrar menos ...
+                          </button>
+                        </p>
+                        <div class="collapse" id="post1">
+                          <p>
+                            Nós, da JBS, somos 250 mil colaboradores movidos pelo propósito de alimentar o mundo com o que há de melhor, levando excelência e inovação por meio das nossas marcas para muitos países. Somos a segunda maior companhia de alimentos do mundo e a primeira em proteína com opções que vão desde o café da manhã até o jantar, além de termos a maior linha de produtos plant based.
+                              Da origem até a mesa do consumidor, nosso cuidado vai além do processo produtivo e temos responsabilidade em nossas ações para que elas gerem impactos positivos para nossos colaboradores, fornecedores, clientes e, claro, para as milhões de famílias que confiam na qualidade dos nossos produtos.
+                          </p>
+                        </div>
+
                           <div class="postagem__capa"><img src="./imgs/post1.jpg" alt=""></div>
                           <div class="postagem__feedback">
                               <img src="./imgs/like_p.svg" alt=""> <span class="postagem__likes text-muted small">44</span>
@@ -689,9 +740,9 @@
 
 
 
-    <script src="./src/jquery-3.5.1.slim.min.js" ></script>
-    <script src="./src/bootstrap.bundle.js"></script>
-   <script>
+<script src="./src/jquery-3.5.1.slim.min.js" ></script>
+<script src="./src/bootstrap.bundle.js"></script>
+<script>
 
   
 
@@ -719,19 +770,22 @@ $( document ).ready(function() {
     })
 
 
-    // girar ao clicar
+    
 
 
-
+// girar ao clicar
     $('#recentes__trigger__btn').click(function(){
 		// $('#roteste').css('transform', 'scale(1,-1) ');
 		$('#recentes__target__icon').toggleClass('rotate');
-});
-
-
-
-});
-
+    });
+  
+    let $botao= $('.show__more__btn')
+     $botao.click(function(e){
+      $botao.html($botao.html()=='mostrar menos ...'? 'mostrar mais ...' : 'mostrar menos ...');
+    });
+  
+  
+  });
 
    </script>
 
